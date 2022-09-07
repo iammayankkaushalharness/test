@@ -1,0 +1,27 @@
+template:
+  name: template-pipe
+  identifier: templatepipe
+  versionLabel: "1"
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: s1
+          identifier: s1
+          description: ""
+          type: Approval
+          spec:
+            execution:
+              steps:
+                - step:
+                    type: Http
+                    name: app
+                    identifier: app
+                    spec:
+                      url: <+input>
+                      method: GET
+                      headers: []
+                      outputVariables: []
+                    timeout: 10s
+          tags: {}

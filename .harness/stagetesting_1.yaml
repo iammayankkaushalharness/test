@@ -1,0 +1,26 @@
+template:
+  name: stage-testing
+  identifier: stagetesting
+  versionLabel: "1"
+  type: Stage
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Approval
+    spec:
+      execution:
+        steps:
+          - step:
+              type: ShellScript
+              name: app
+              identifier: app
+              spec:
+                shell: Bash
+                onDelegate: true
+                source:
+                  type: Inline
+                  spec:
+                    script: echo hi
+                environmentVariables: []
+                outputVariables: []
+              timeout: 10m
