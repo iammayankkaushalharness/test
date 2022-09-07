@@ -1,0 +1,35 @@
+template:
+  name: templatepipeline
+  identifier: templatepipeline
+  versionLabel: "1"
+  type: Pipeline
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: s1
+          identifier: s1
+          description: ""
+          type: Approval
+          spec:
+            execution:
+              steps:
+                - step:
+                    name: app
+                    identifier: app
+                    type: HarnessApproval
+                    timeout: 1d
+                    spec:
+                      approvalMessage: |-
+                        Please review the following information
+                        and approve the pipeline progression
+                      includePipelineExecutionHistory: true
+                      approvers:
+                        minimumCount: 1
+                        disallowPipelineExecutor: false
+                        userGroups:
+                          - account._account_all_users
+                      approverInputs:
+                        - name: sfdf
+                          defaultValue: <+pipeline.description>
+          tags: {}
