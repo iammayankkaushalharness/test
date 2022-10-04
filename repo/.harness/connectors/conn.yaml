@@ -1,0 +1,22 @@
+connector:
+  name: conn
+  identifier: conn
+  description: ""
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  projectIdentifier: NGPipeAutoDemoPro17wJ6te9Bo
+  type: Github
+  spec:
+    url: https://github.com/lalitkumar-123/test
+    authentication:
+      type: Http
+      spec:
+        type: UsernameToken
+        spec:
+          username: lalitkumar-123
+          tokenRef: sec
+    apiAccess:
+      type: Token
+      spec:
+        tokenRef: sec
+    executeOnDelegate: true
+    type: Repo
