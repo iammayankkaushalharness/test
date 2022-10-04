@@ -1,0 +1,54 @@
+template:
+  name: stagetemp
+  identifier: stagetemp
+  versionLabel: V1
+  type: Stage
+  projectIdentifier: NGPipeAutoDemoPro17wJ6te9Bo
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  tags: {}
+  spec:
+    type: Deployment
+    spec:
+      serviceConfig:
+        serviceDefinition:
+          spec:
+            variables:
+              - name: var
+                type: String
+                default: ab
+                value: <+input>.allowedValues(ab)
+          type: Kubernetes
+        serviceRef: serviceForRollOutDepDonotDelete
+      infrastructure:
+        environmentRef: envForRolloutDepDonotDelete
+        infrastructureDefinition:
+          type: KubernetesDirect
+          spec:
+            connectorRef: <+input>
+            namespace: <+input>
+            releaseName: release-<+INFRA_KEY>
+        allowSimultaneousDeployments: true
+      execution:
+        steps:
+          - step:
+              type: JiraCreate
+              name: jira
+              identifier: jira
+              spec:
+                connectorRef: <+input>
+                projectKey: <+input>
+                issueType: <+input>
+                fields: []
+              timeout: 1d
+        rollbackSteps: []
+    failureStrategies:
+      - onFailure:
+          errors:
+            - AllErrors
+          action:
+            type: StageRollback
+    variables:
+      - name: v1
+        type: String
+        default: ab
+        value: <+input>.allowedValues(ab)
