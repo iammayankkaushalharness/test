@@ -1,6 +1,6 @@
 pipeline:
-  name: p1
-  identifier: p1
+  name: p2
+  identifier: p2
   projectIdentifier: NGPipeAutoDemoPro17wJ6te9Bo
   orgIdentifier: Ng_Pipelines_K8s_Organisations
   tags: {}
