@@ -16,8 +16,7 @@ template:
           spec:
             deploymentType: Kubernetes
             service:
-              serviceRef: <+input>
-              serviceInputs: <+input>
+              serviceRef: <+SVC>
             environment:
               environmentRef: <+input>
               deployToAll: false
