@@ -9,8 +9,8 @@ template:
   spec:
     stages:
       - stage:
-          name: xnnxx
-          identifier: xnnxx
+          name: bxb
+          identifier: bxb
           description: ""
           type: Deployment
           spec:
