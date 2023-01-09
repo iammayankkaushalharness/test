@@ -10,7 +10,6 @@ template:
     type: HarnessApproval
     timeout: 1d
     spec:
-      approvalMessage: <+input>.allowedValues(ab,hf,cd)
       includePipelineExecutionHistory: true
       approvers:
         userGroups:
@@ -18,3 +17,4 @@ template:
         minimumCount: 1
         disallowPipelineExecutor: false
       approverInputs: []
+      approvalMessage: <+input>
