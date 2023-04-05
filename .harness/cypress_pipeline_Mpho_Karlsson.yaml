@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Mpho_Karlsson
+  identifier: cypress_pipeline_Mpho_Karlsson
+  projectIdentifier: Cypress_dev_1234
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Lihua_Panya
+        identifier: cypress_stage_Lihua_Panya
+        template:
+          templateRef: template_1234
+          versionLabel: v1
