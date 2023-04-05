@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Rong_Prasad
+  identifier: cypress_pipeline_Rong_Prasad
+  projectIdentifier: cypress_project_Shizuko_Katz
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Watsana_Pugh
+        identifier: cypress_stage_Watsana_Pugh
+        template:
+          templateRef: cypress_template_Sharon_Zhong
+          versionLabel: v1
