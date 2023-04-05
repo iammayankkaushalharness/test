@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Sunday_Bos
+  identifier: cypress_pipeline_Sunday_Bos
+  projectIdentifier: Cypress_dev_1234
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Laxmi_Esteban
+        identifier: cypress_stage_Laxmi_Esteban
+        template:
+          templateRef: template_1234
+          versionLabel: v1
