@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Ramesh_Ghosh
+  identifier: cypress_pipeline_Ramesh_Ghosh
+  projectIdentifier: Cypress_dev_1234
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Ling_Mitchell
+        identifier: cypress_stage_Ling_Mitchell
+        template:
+          templateRef: template_1234
+          versionLabel: v1
