@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Sam_Gao
+  identifier: cypress_pipeline_Sam_Gao
+  projectIdentifier: cypress_project_Hiroshi_Ojo
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Cristina_Nel
+        identifier: cypress_stage_Cristina_Nel
+        template:
+          templateRef: cypress_template_Christa_Sokolova
+          versionLabel: v1
