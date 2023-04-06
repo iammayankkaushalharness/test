@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Yoshie_Delgado
+  identifier: cypress_pipeline_Yoshie_Delgado
+  projectIdentifier: cypress_project_Yisrael_Meier
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Yaakv_Walczak
+        identifier: cypress_stage_Yaakv_Walczak
+        template:
+          templateRef: cypress_template_Nobuko_Joseph
+          versionLabel: v1
