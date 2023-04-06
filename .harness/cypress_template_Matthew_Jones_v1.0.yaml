@@ -1,0 +1,59 @@
+template:
+  name: cypress_template_Matthew_Jones
+  identifier: cypress_template_Matthew_Jones
+  versionLabel: v1.0
+  type: Stage
+  projectIdentifier: cypress_project_Yun_Mor
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Deployment
+    spec:
+      deploymentType: Kubernetes
+      service:
+        serviceRef: cypress_service_Yue_Zwane
+      environment:
+        environmentRef: cypress_env_Yue_Yan
+        environmentInputs:
+          identifier: cypress_env_Yue_Yan
+          type: Production
+          variables:
+            - name: var1
+              type: String
+              value: <+input>
+            - name: var2
+              type: String
+              value: <+input>
+        deployToAll: false
+        infrastructureDefinitions:
+          - identifier: cypress_infra_Helen_Kimani
+            inputs:
+              identifier: cypress_infra_Helen_Kimani
+              type: KubernetesDirect
+              spec:
+                connectorRef: <+input>
+                namespace: <+input>
+      execution:
+        steps:
+          - step:
+              name: Rollout Deployment
+              identifier: rolloutDeployment
+              type: K8sRollingDeploy
+              timeout: 10m
+              spec:
+                skipDryRun: false
+                pruningEnabled: false
+        rollbackSteps:
+          - step:
+              name: Rollback Rollout Deployment
+              identifier: rollbackRolloutDeployment
+              type: K8sRollingRollback
+              timeout: 10m
+              spec:
+                pruningEnabled: false
+    failureStrategies:
+      - onFailure:
+          errors:
+            - AllErrors
+          action:
+            type: StageRollback
