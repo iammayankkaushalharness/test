@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Carol_Han
+  identifier: cypress_pipeline_Carol_Han
+  projectIdentifier: cypress_project_Pablo_Wang
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Jorge_Wairimu
+        identifier: cypress_stage_Jorge_Wairimu
+        template:
+          templateRef: cypress_template_Monika_Romanov
+          versionLabel: v1
