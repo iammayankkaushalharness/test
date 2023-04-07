@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Aliyu_Rogers
+  identifier: cypress_pipeline_Aliyu_Rogers
+  projectIdentifier: cypress_project_Paul_James
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Jason_Koch
+        identifier: cypress_stage_Jason_Koch
+        template:
+          templateRef: cypress_template_Manuel_Chaichana
+          versionLabel: v1
