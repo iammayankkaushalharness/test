@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Isa_Molina
+  identifier: cypress_pipeline_Isa_Molina
+  projectIdentifier: cypress_project_Hong_Walters
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Ana_Dauda
+        identifier: cypress_stage_Ana_Dauda
+        template:
+          templateRef: cypress_template_Agnieszka_Atieno
+          versionLabel: v1
