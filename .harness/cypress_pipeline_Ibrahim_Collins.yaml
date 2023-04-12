@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Ibrahim_Collins
+  identifier: cypress_pipeline_Ibrahim_Collins
+  projectIdentifier: cypress_project_Jianhua_Powell
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Ruth_Okoro
+        identifier: cypress_stage_Ruth_Okoro
+        template:
+          templateRef: cypress_template_Lyubov_Segel
+          versionLabel: v1
