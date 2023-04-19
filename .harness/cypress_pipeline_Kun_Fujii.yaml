@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Kun_Fujii
+  identifier: cypress_pipeline_Kun_Fujii
+  projectIdentifier: cypress_project_Andrea_Sokolova
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Sveinn_Cherinsuk
+        identifier: cypress_stage_Sveinn_Cherinsuk
+        template:
+          templateRef: cypress_template_Aleksandra_Yahaya
+          versionLabel: v1
