@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Chan_Abdullahi
+  identifier: cypress_pipeline_Chan_Abdullahi
+  projectIdentifier: cypress_project_Tomasz_Perez
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Eugenia_Clarke
+        identifier: cypress_stage_Eugenia_Clarke
+        template:
+          templateRef: cypress_template_Waraphon_Ivanov
+          versionLabel: v1
