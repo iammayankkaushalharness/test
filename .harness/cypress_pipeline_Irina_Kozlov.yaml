@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Irina_Kozlov
+  identifier: cypress_pipeline_Irina_Kozlov
+  projectIdentifier: cypress_project_Petra_Mandal
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Michal_Ansari
+        identifier: cypress_stage_Michal_Ansari
+        template:
+          templateRef: cypress_template_Rong_Morris
+          versionLabel: v1
