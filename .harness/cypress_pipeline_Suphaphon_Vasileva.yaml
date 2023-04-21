@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Suphaphon_Vasileva
+  identifier: cypress_pipeline_Suphaphon_Vasileva
+  projectIdentifier: cypress_project_Birna_Igwe
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Nittaya_Suissa
+        identifier: cypress_stage_Nittaya_Suissa
+        template:
+          templateRef: cypress_template_Jianhua_Su
+          versionLabel: v1
