@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Iwona_Qiu
+  identifier: cypress_pipeline_Iwona_Qiu
+  projectIdentifier: cypress_project_Werner_Smit
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Jesus_Ceng
+        identifier: cypress_stage_Jesus_Ceng
+        template:
+          templateRef: cypress_template_Haruna_Gonzalez
+          versionLabel: v1
