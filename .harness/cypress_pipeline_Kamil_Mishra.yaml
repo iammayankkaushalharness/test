@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Kamil_Mishra
+  identifier: cypress_pipeline_Kamil_Mishra
+  projectIdentifier: cypress_project_Andrew_Ouma
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Xiaoli_Maeda
+        identifier: cypress_stage_Xiaoli_Maeda
+        template:
+          templateRef: cypress_template_Marina_Pavlov
+          versionLabel: v1
