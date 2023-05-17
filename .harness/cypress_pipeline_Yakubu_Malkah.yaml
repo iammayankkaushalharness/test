@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Yakubu_Malkah
+  identifier: cypress_pipeline_Yakubu_Malkah
+  projectIdentifier: cypress_project_Sunday_Kumar
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Klaus_Baker
+        identifier: cypress_stage_Klaus_Baker
+        template:
+          templateRef: cypress_template_Catherine_Clark
+          versionLabel: v1
