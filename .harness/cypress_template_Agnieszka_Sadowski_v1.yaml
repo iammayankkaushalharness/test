@@ -16,6 +16,6 @@ template:
       approvers:
         userGroups:
           - account._account_all_users
-        minimumCount: 1
+        minimumCount: 33
         disallowPipelineExecutor: false
       approverInputs: []
