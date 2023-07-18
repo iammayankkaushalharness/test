@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Johanna_Eze
+  identifier: cypress_pipeline_Johanna_Eze
+  projectIdentifier: cypress_project_Ivan_Watson
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Nikolay_Gao
+          project: cypress_project_Ivan_Watson
