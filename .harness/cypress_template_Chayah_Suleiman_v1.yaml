@@ -1,0 +1,27 @@
+template:
+  name: cypress_template_Chayah_Suleiman
+  identifier: cypress_template_Chayah_Suleiman
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Zainab_Maas
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Xiang_Karlsson
+          identifier: cypress_stage_Xiang_Karlsson
+          template:
+            templateRef: cypress_template_Xiaoli_Suarez
+            versionLabel: v1
+            templateInputs:
+              type: Deployment
+              spec:
+                service:
+                  serviceRef: <+input>
+                  serviceInputs: <+input>
+                environment:
+                  environmentRef: <+input>
+                  environmentInputs: <+input>
+                  serviceOverrideInputs: <+input>
+                  infrastructureDefinitions: <+input>
