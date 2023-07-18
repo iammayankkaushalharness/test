@@ -35,6 +35,13 @@ template:
               template:
                 templateRef: cypress_template_Ning_Vargas
                 versionLabel: v12
+                templateInputs:
+                  type: ShellScript
+                  spec:
+                    source:
+                      type: Inline
+                      spec:
+                        script: <+input>
         rollbackSteps:
           - step:
               name: Rollback Rollout Deployment
