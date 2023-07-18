@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Xin_Fukuda
           project: cypress_project_Jerzy_Idris
+          inputs:
+            identifier: child_cypress_pipeline_Xin_Fukuda
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Ping_Shapiro
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s
