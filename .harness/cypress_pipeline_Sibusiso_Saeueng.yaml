@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Xiang_Egorova
           project: cypress_project_Mateusz_Baldursson
+          inputs:
+            identifier: child_cypress_pipeline_Xiang_Egorova
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Johanna_Dauda
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15m
