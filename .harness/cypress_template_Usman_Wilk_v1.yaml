@@ -1,0 +1,27 @@
+template:
+  name: cypress_template_Usman_Wilk
+  identifier: cypress_template_Usman_Wilk
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Sergio_Ikeda
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Irina_Garrido
+          identifier: cypress_stage_Irina_Garrido
+          template:
+            templateRef: cypress_template_Emmanuel_Rutkowski
+            versionLabel: v1
+            templateInputs:
+              type: Deployment
+              spec:
+                service:
+                  serviceRef: <+input>
+                  serviceInputs: <+input>
+                environment:
+                  environmentRef: <+input>
+                  environmentInputs: <+input>
+                  serviceOverrideInputs: <+input>
+                  infrastructureDefinitions: <+input>
