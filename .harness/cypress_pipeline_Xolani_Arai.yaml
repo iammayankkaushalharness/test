@@ -14,3 +14,12 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Carol_Volkova
           project: cypress_project_Shoji_Hoffmann
+    - stage:
+        name: v
+        identifier: v
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Carol_Volkova
+          project: cypress_project_Shoji_Hoffmann
