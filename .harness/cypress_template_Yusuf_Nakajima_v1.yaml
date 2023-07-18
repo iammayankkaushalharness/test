@@ -1,0 +1,16 @@
+template:
+  name: cypress_template_Yusuf_Nakajima
+  identifier: cypress_template_Yusuf_Nakajima
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_MariaIsabel_Chebet
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Anong_Molina
+          identifier: cypress_stage_Anong_Molina
+          template:
+            templateRef: cypress_template_Berglind_Otieno
+            versionLabel: v1
