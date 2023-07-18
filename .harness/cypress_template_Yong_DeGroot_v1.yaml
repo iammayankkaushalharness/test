@@ -1,0 +1,27 @@
+template:
+  name: cypress_template_Yong_DeGroot
+  identifier: cypress_template_Yong_DeGroot
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Nicola_Schmid
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Amit_Rabiu
+          identifier: cypress_stage_Amit_Rabiu
+          template:
+            templateRef: cypress_template_Wolfgang_Castro
+            versionLabel: v1
+            templateInputs:
+              type: Deployment
+              spec:
+                service:
+                  serviceRef: <+input>
+                  serviceInputs: <+input>
+                environment:
+                  environmentRef: <+input>
+                  environmentInputs: <+input>
+                  serviceOverrideInputs: <+input>
+                  infrastructureDefinitions: <+input>
