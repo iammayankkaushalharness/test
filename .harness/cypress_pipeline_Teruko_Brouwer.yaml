@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Nikita_Jakubowski
           project: cypress_project_Uriy_Nowak
+          inputs:
+            identifier: child_cypress_pipeline_Nikita_Jakubowski
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Dorota_Saetang
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15m
