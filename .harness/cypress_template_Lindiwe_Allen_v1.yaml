@@ -1,0 +1,16 @@
+template:
+  name: cypress_template_Lindiwe_Allen
+  identifier: cypress_template_Lindiwe_Allen
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Koichi_Barasa
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Bin_Malinowski
+          identifier: cypress_stage_Bin_Malinowski
+          template:
+            templateRef: cypress_template_Noam_Hassan
+            versionLabel: v1
