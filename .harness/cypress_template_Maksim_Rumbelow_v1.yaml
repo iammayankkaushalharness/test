@@ -1,0 +1,27 @@
+template:
+  name: cypress_template_Maksim_Rumbelow
+  identifier: cypress_template_Maksim_Rumbelow
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Jennifer_Rowlands
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Urmila_Sato
+          identifier: cypress_stage_Urmila_Sato
+          template:
+            templateRef: cypress_template_Hui_Mahlangu
+            versionLabel: v1
+            templateInputs:
+              type: Deployment
+              spec:
+                service:
+                  serviceRef: <+input>
+                  serviceInputs: <+input>
+                environment:
+                  environmentRef: <+input>
+                  environmentInputs: <+input>
+                  serviceOverrideInputs: <+input>
+                  infrastructureDefinitions: <+input>
