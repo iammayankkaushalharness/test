@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Yaakv_Muhammad
           project: cypress_project_Otieno_Hassan
+          inputs:
+            identifier: child_cypress_pipeline_Yaakv_Muhammad
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Amina_Cook
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s
