@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Isaac_Santos
           project: cypress_project_Phonthip_Feng
+          inputs:
+            identifier: child_cypress_pipeline_Isaac_Santos
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Raphael_Mwangi
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: "15"
