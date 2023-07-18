@@ -1,0 +1,27 @@
+template:
+  name: cypress_template_Elke_Johnson
+  identifier: cypress_template_Elke_Johnson
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Ivan_White
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Yu_Okada
+          identifier: cypress_stage_Yu_Okada
+          template:
+            templateRef: cypress_template_Fran_Walker
+            versionLabel: v1
+            templateInputs:
+              type: Deployment
+              spec:
+                service:
+                  serviceRef: <+input>
+                  serviceInputs: <+input>
+                environment:
+                  environmentRef: <+input>
+                  environmentInputs: <+input>
+                  serviceOverrideInputs: <+input>
+                  infrastructureDefinitions: <+input>
