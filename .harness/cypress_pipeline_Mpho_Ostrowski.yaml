@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Jin_Santiago
           project: cypress_project_Xiaoping_Umaru
+          inputs:
+            identifier: child_cypress_pipeline_Jin_Santiago
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Koichi_Kim
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: <+input>
