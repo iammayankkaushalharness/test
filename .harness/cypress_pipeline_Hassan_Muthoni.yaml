@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Hassan_Muthoni
+  identifier: cypress_pipeline_Hassan_Muthoni
+  projectIdentifier: cypress_project_Yhudah_Lopez
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Idris_Aliev
+        identifier: cypress_stage_Idris_Aliev
+        template:
+          templateRef: cypress_template_Aleksey_Isah
+          versionLabel: v1
+          gitBranch: main
