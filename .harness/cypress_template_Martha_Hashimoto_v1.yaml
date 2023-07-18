@@ -1,0 +1,27 @@
+template:
+  name: cypress_template_Martha_Hashimoto
+  identifier: cypress_template_Martha_Hashimoto
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Sara_Zajac
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Lei_Peng
+          identifier: cypress_stage_Lei_Peng
+          template:
+            templateRef: cypress_template_Radha_Cele
+            versionLabel: v1
+            templateInputs:
+              type: Deployment
+              spec:
+                service:
+                  serviceRef: <+input>
+                  serviceInputs: <+input>
+                environment:
+                  environmentRef: <+input>
+                  environmentInputs: <+input>
+                  serviceOverrideInputs: <+input>
+                  infrastructureDefinitions: <+input>
