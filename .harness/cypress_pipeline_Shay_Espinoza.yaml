@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Claudia_Krause
           project: cypress_project_Sharon_Chen
+          inputs:
+            identifier: child_cypress_pipeline_Claudia_Krause
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Kseniya_Hayashi
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15m
