@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Brian_Sithole
+  identifier: cypress_pipeline_Brian_Sithole
+  projectIdentifier: cypress_project_Manfred_Gonzalez
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Andrey_Bekher
+          project: cypress_project_Manfred_Gonzalez
