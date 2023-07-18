@@ -1,0 +1,27 @@
+template:
+  name: cypress_template_Maciej_Watkins
+  identifier: cypress_template_Maciej_Watkins
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Miriam_Rotich
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Sanjay_Makarova
+          identifier: cypress_stage_Sanjay_Makarova
+          template:
+            templateRef: cypress_template_Kiran_Sawicki
+            versionLabel: v1
+            templateInputs:
+              type: Deployment
+              spec:
+                service:
+                  serviceRef: <+input>
+                  serviceInputs: <+input>
+                environment:
+                  environmentRef: <+input>
+                  environmentInputs: <+input>
+                  serviceOverrideInputs: <+input>
+                  infrastructureDefinitions: <+input>
