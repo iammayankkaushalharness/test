@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Na_Yamashita
           project: cypress_project_Gisela_Khatib
+          inputs:
+            identifier: child_cypress_pipeline_Na_Yamashita
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Santosh_Elbaz
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15m
