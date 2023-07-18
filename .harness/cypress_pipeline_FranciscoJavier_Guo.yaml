@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_FranciscoJavier_Guo
+  identifier: cypress_pipeline_FranciscoJavier_Guo
+  projectIdentifier: cypress_project_Nan_Dayan
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Lyudmila_Kok
+          project: cypress_project_Nan_Dayan
