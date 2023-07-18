@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Shay_Espinoza
+  identifier: cypress_pipeline_Shay_Espinoza
+  projectIdentifier: cypress_project_Sharon_Chen
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Claudia_Krause
+          project: cypress_project_Sharon_Chen
