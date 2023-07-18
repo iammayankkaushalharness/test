@@ -1,0 +1,27 @@
+template:
+  name: cypress_template_Thulani_Verhoeven
+  identifier: cypress_template_Thulani_Verhoeven
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Takashi_Mandal
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Yuriy_Sasaki
+          identifier: cypress_stage_Yuriy_Sasaki
+          template:
+            templateRef: cypress_template_Luis_Vermeulen
+            versionLabel: v1
+            templateInputs:
+              type: Deployment
+              spec:
+                service:
+                  serviceRef: <+input>
+                  serviceInputs: <+input>
+                environment:
+                  environmentRef: <+input>
+                  environmentInputs: <+input>
+                  serviceOverrideInputs: <+input>
+                  infrastructureDefinitions: <+input>
