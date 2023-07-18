@@ -1,0 +1,27 @@
+template:
+  name: cypress_template_Caroline_Baker
+  identifier: cypress_template_Caroline_Baker
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Somsak_Mendoza
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Berglind_Xu
+          identifier: cypress_stage_Berglind_Xu
+          template:
+            templateRef: cypress_template_Marek_Ray
+            versionLabel: v1
+            templateInputs:
+              type: Deployment
+              spec:
+                service:
+                  serviceRef: <+input>
+                  serviceInputs: <+input>
+                environment:
+                  environmentRef: <+input>
+                  environmentInputs: <+input>
+                  serviceOverrideInputs: <+input>
+                  infrastructureDefinitions: <+input>
