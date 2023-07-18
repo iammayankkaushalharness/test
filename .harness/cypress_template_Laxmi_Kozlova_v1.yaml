@@ -1,0 +1,27 @@
+template:
+  name: cypress_template_Laxmi_Kozlova
+  identifier: cypress_template_Laxmi_Kozlova
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Elisabeth_Rungrueang
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Carol_Maas
+          identifier: cypress_stage_Carol_Maas
+          template:
+            templateRef: cypress_template_Aisha_Bos
+            versionLabel: v1
+            templateInputs:
+              type: Deployment
+              spec:
+                service:
+                  serviceRef: <+input>
+                  serviceInputs: <+input>
+                environment:
+                  environmentRef: <+input>
+                  environmentInputs: <+input>
+                  serviceOverrideInputs: <+input>
+                  infrastructureDefinitions: <+input>
