@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Amit_Liao
+  identifier: cypress_pipeline_Amit_Liao
+  projectIdentifier: cypress_project_Jianping_Lavyan
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Samran_Pugh
+        identifier: cypress_stage_Samran_Pugh
+        template:
+          templateRef: cypress_template_Jackline_Xu
+          versionLabel: v1
