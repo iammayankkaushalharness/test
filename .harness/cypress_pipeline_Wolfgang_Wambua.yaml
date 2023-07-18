@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Yisrael_Janssen
           project: cypress_project_Konstantin_Kozlov
+          inputs:
+            identifier: child_cypress_pipeline_Yisrael_Janssen
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Heinz_Mustapha
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s
