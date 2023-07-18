@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Fran_Venter
           project: cypress_project_Thawi_Schmid
+          inputs:
+            identifier: child_cypress_pipeline_Fran_Venter
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Gang_Jiang
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: ""
