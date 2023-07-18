@@ -1,0 +1,27 @@
+template:
+  name: cypress_template_Shigeru_Hofmann
+  identifier: cypress_template_Shigeru_Hofmann
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Lucy_Yamaguchi
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Patrick_Salazar
+          identifier: cypress_stage_Patrick_Salazar
+          template:
+            templateRef: cypress_template_Horst_Dahan
+            versionLabel: v1
+            templateInputs:
+              type: Deployment
+              spec:
+                service:
+                  serviceRef: <+input>
+                  serviceInputs: <+input>
+                environment:
+                  environmentRef: <+input>
+                  environmentInputs: <+input>
+                  serviceOverrideInputs: <+input>
+                  infrastructureDefinitions: <+input>
