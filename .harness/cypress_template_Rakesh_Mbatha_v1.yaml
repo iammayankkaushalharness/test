@@ -1,0 +1,27 @@
+template:
+  name: cypress_template_Rakesh_Mbatha
+  identifier: cypress_template_Rakesh_Mbatha
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Suman_Yan
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Xolani_Sani
+          identifier: cypress_stage_Xolani_Sani
+          template:
+            templateRef: cypress_template_Yan_Mahlangu
+            versionLabel: v1
+            templateInputs:
+              type: Deployment
+              spec:
+                service:
+                  serviceRef: <+input>
+                  serviceInputs: <+input>
+                environment:
+                  environmentRef: <+input>
+                  environmentInputs: <+input>
+                  serviceOverrideInputs: <+input>
+                  infrastructureDefinitions: <+input>
