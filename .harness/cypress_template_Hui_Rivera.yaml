@@ -1,0 +1,24 @@
+template:
+  name: cypress_template_Hui_Rivera
+  identifier: cypress_template_Hui_Rivera
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Sunita_Mor
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Andrew_Ogawa
+              identifier: cypress_template_Andrew_Ogawa
+              template:
+                templateRef: cypress_template_Andrew_Ogawa
+                versionLabel: v12
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
