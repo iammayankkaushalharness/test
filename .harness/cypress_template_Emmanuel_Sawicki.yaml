@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Emmanuel_Sawicki
+  identifier: cypress_template_Emmanuel_Sawicki
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Berglind_Richards
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Xiang_Schneider
+              identifier: cypress_template_Xiang_Schneider
+              template:
+                templateRef: cypress_template_Xiang_Schneider
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
