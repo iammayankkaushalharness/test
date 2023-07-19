@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Fernando_Ma
+  identifier: cypress_template_Fernando_Ma
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Ling_Wang
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Yosef_Song
+          identifier: cypress_stage_Yosef_Song
+          template:
+            templateRef: cypress_template_Katsumi_Fuchs
+            versionLabel: v1
+            gitBranch: main-patch
