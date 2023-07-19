@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Elisabeth_Price
+  identifier: cypress_template_Elisabeth_Price
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Kiran_Hofmann
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Mohamed_Thompson
+          identifier: cypress_stage_Mohamed_Thompson
+          template:
+            templateRef: cypress_template_Gunnar_Gonzalez
+            versionLabel: v1
+            gitBranch: main-patch-1
