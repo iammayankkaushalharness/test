@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Paul_Garrido
+  identifier: cypress_template_Paul_Garrido
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Yoshiko_Kowalski
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Zandile_Rogers
+              identifier: cypress_template_Zandile_Rogers
+              template:
+                templateRef: cypress_template_Zandile_Rogers
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
