@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Sammy_Blanco
+  identifier: cypress_template_Sammy_Blanco
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Yoko_Ngcobo
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Aminu_Kumar
+              identifier: cypress_template_Aminu_Kumar
+              template:
+                templateRef: cypress_template_Aminu_Kumar
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
