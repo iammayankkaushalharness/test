@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Gita_Hongthong
+  identifier: cypress_template_Gita_Hongthong
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Ian_Ojo
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Christine_Sarkar
+          identifier: cypress_stage_Christine_Sarkar
+          template:
+            templateRef: cypress_template_Bunmi_Mizrahi
+            versionLabel: v1
+            gitBranch: main-patch-1
