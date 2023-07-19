@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Nadezhda_Govender
+  identifier: cypress_template_Nadezhda_Govender
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Krishna_Xu
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Sachiko_Radebe
+          identifier: cypress_stage_Sachiko_Radebe
+          template:
+            templateRef: cypress_template_Ling_Nikolaev
+            versionLabel: v1
+            gitBranch: main-patch
