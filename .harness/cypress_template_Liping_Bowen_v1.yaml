@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Hulda_Cheruiyot
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Ester_Smit
+          identifier: cypress_stage_Ester_Smit
+          template:
+            templateRef: cypress_template_Juan_Wilson
+            versionLabel: v1
+            gitBranch: main-patch
