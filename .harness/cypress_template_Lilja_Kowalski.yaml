@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Lilja_Kowalski
+  identifier: cypress_template_Lilja_Kowalski
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Sergio_Cortes
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Amnuai_Yusuf
+              identifier: cypress_template_Amnuai_Yusuf
+              template:
+                templateRef: cypress_template_Amnuai_Yusuf
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
