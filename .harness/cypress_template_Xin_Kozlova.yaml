@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Xin_Kozlova
+  identifier: cypress_template_Xin_Kozlova
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Heinz_Omar
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Charoen_Bauer
+              identifier: cypress_template_Charoen_Bauer
+              template:
+                templateRef: cypress_template_Charoen_Bauer
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
