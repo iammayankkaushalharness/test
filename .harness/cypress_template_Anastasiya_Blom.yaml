@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Anastasiya_Blom
+  identifier: cypress_template_Anastasiya_Blom
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Jacobus_Thomas
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Idris_Makarova
+              identifier: cypress_template_Idris_Makarova
+              template:
+                templateRef: cypress_template_Idris_Makarova
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
