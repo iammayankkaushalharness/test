@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Yoko_Begum
+  identifier: cypress_template_Yoko_Begum
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Suresh_Dijkstra
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Toshiko_Michalski
+              identifier: cypress_template_Toshiko_Michalski
+              template:
+                templateRef: cypress_template_Toshiko_Michalski
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
