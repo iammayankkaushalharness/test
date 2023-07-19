@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Ruth_Adri
+  identifier: cypress_template_Ruth_Adri
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Xiaoyan_Mendoza
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Fernando_Wieczorek
+          identifier: cypress_stage_Fernando_Wieczorek
+          template:
+            templateRef: cypress_template_Andrew_Ali
+            versionLabel: v1
+            gitBranch: main-patch-1
