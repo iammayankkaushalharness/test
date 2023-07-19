@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Bunmi_Mizrahi
+  identifier: cypress_template_Bunmi_Mizrahi
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Ian_Ojo
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Somchit_Thomas
+              identifier: cypress_template_Somchit_Thomas
+              template:
+                templateRef: cypress_template_Somchit_Thomas
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
