@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Uriy_Sergeeva
+  identifier: cypress_template_Uriy_Sergeeva
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Sergio_Cortes
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Joan_Liang
+          identifier: cypress_stage_Joan_Liang
+          template:
+            templateRef: cypress_template_Lilja_Kowalski
+            versionLabel: v1
+            gitBranch: main-patch-1
