@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Galina_Ren
+  identifier: cypress_template_Galina_Ren
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Francis_Ortega
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Aisha_Popov
+              identifier: cypress_template_Aisha_Popov
+              template:
+                templateRef: cypress_template_Aisha_Popov
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
