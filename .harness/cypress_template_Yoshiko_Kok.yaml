@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Yoshiko_Kok
+  identifier: cypress_template_Yoshiko_Kok
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Hendrik_Nowak
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Somkhit_Schmitz
+              identifier: cypress_template_Somkhit_Schmitz
+              template:
+                templateRef: cypress_template_Somkhit_Schmitz
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
