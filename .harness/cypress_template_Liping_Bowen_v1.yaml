@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Liping_Bowen
+  identifier: cypress_template_Liping_Bowen
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Evgeniy_Peeters
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Zandile_Salazar
+          identifier: cypress_stage_Zandile_Salazar
+          template:
+            templateRef: cypress_template_Hulda_Cheruiyot
+            versionLabel: v1
+            gitBranch: main-patch-1
