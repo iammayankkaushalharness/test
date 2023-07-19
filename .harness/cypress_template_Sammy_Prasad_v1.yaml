@@ -1,0 +1,27 @@
+template:
+  name: cypress_template_Sammy_Prasad
+  identifier: cypress_template_Sammy_Prasad
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Shoshanah_Baran
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Salisu_Gaby
+          identifier: cypress_stage_Salisu_Gaby
+          template:
+            templateRef: cypress_template_Rajendra_Sisuk
+            versionLabel: v1
+            templateInputs:
+              type: Deployment
+              spec:
+                service:
+                  serviceRef: <+input>
+                  serviceInputs: <+input>
+                environment:
+                  environmentRef: <+input>
+                  environmentInputs: <+input>
+                  serviceOverrideInputs: <+input>
+                  infrastructureDefinitions: <+input>
