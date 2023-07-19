@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Xiaohong_Carter
+  identifier: cypress_template_Xiaohong_Carter
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Joan_Smoakley
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Pushpa_Prieto
+          identifier: cypress_stage_Pushpa_Prieto
+          template:
+            templateRef: cypress_template_Lilian_Suwan
+            versionLabel: v1
+            gitBranch: main-patch-1
