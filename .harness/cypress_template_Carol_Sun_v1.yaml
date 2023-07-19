@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Carol_Sun
+  identifier: cypress_template_Carol_Sun
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Heinz_Omar
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Sam_Lee
+          identifier: cypress_stage_Sam_Lee
+          template:
+            templateRef: cypress_template_Yasuko_Martinez
+            versionLabel: v1
+            gitBranch: main-patch
