@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Pavel_Price
+  identifier: cypress_template_Pavel_Price
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Yoshiko_Kowalski
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Koji_Omer
+          identifier: cypress_stage_Koji_Omer
+          template:
+            templateRef: cypress_template_Paul_Garrido
+            versionLabel: v1
+            gitBranch: main-patch-1
