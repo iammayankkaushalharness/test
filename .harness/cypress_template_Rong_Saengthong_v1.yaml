@@ -1,0 +1,16 @@
+template:
+  name: cypress_template_Rong_Saengthong
+  identifier: cypress_template_Rong_Saengthong
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Francis_Ortega
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Aminu_Ward
+          identifier: cypress_stage_Aminu_Ward
+          template:
+            templateRef: cypress_template_Gita_Mokoena
+            versionLabel: v1
