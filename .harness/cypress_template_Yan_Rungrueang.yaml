@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Yan_Rungrueang
+  identifier: cypress_template_Yan_Rungrueang
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Peng_Nowak
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Toshio_Bai
+              identifier: cypress_template_Toshio_Bai
+              template:
+                templateRef: cypress_template_Toshio_Bai
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
