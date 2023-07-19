@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Nokuthula_Alonso
+  identifier: cypress_template_Nokuthula_Alonso
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Ping_Rodriguez
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Jorge_Iglesias
+              identifier: cypress_template_Jorge_Iglesias
+              template:
+                templateRef: cypress_template_Jorge_Iglesias
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
