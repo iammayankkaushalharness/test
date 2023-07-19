@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Hulda_Cheruiyot
+  identifier: cypress_template_Hulda_Cheruiyot
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Evgeniy_Peeters
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Lisa_Okon
+              identifier: cypress_template_Lisa_Okon
+              template:
+                templateRef: cypress_template_Lisa_Okon
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
