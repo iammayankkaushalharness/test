@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Fran_Patil
+  identifier: cypress_pipeline_Fran_Patil
+  projectIdentifier: cypress_project_Sam_Anyango
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_David_Thongsuk
+          project: cypress_project_Sam_Anyango
