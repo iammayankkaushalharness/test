@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Omer_Coetzee
+  identifier: cypress_template_Omer_Coetzee
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Ping_Kikuchi
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Zhen_Wambua
+              identifier: cypress_template_Zhen_Wambua
+              template:
+                templateRef: cypress_template_Zhen_Wambua
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
