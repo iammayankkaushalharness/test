@@ -1,0 +1,27 @@
+template:
+  name: cypress_template_Dolores_Michalski
+  identifier: cypress_template_Dolores_Michalski
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Mpho_Nguyen
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Philip_Eze
+          identifier: cypress_stage_Philip_Eze
+          template:
+            templateRef: cypress_template_Hong_Volkov
+            versionLabel: v1
+            templateInputs:
+              type: Deployment
+              spec:
+                service:
+                  serviceRef: <+input>
+                  serviceInputs: <+input>
+                environment:
+                  environmentRef: <+input>
+                  environmentInputs: <+input>
+                  serviceOverrideInputs: <+input>
+                  infrastructureDefinitions: <+input>
