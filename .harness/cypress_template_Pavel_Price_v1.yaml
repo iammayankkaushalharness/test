@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Paul_Garrido
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Fernando_Maeda
+          identifier: cypress_stage_Fernando_Maeda
+          template:
+            templateRef: cypress_template_Thulani_Jenkins
+            versionLabel: v1
+            gitBranch: main-patch
