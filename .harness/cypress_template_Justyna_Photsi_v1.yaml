@@ -1,0 +1,27 @@
+template:
+  name: cypress_template_Justyna_Photsi
+  identifier: cypress_template_Justyna_Photsi
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Maryam_Sekh
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Lijun_Lopez
+          identifier: cypress_stage_Lijun_Lopez
+          template:
+            templateRef: cypress_template_Sveinn_Paramar
+            versionLabel: v1
+            templateInputs:
+              type: Deployment
+              spec:
+                service:
+                  serviceRef: <+input>
+                  serviceInputs: <+input>
+                environment:
+                  environmentRef: <+input>
+                  environmentInputs: <+input>
+                  serviceOverrideInputs: <+input>
+                  infrastructureDefinitions: <+input>
