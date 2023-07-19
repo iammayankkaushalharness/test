@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Sommai_Visser
+  identifier: cypress_template_Sommai_Visser
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Lijun_Ibrahim
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Tebogo_Blanco
+          identifier: cypress_stage_Tebogo_Blanco
+          template:
+            templateRef: cypress_template_Mark_Abdullahi
+            versionLabel: v1
+            gitBranch: main-patch-1
