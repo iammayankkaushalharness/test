@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Tal_Vargas
+  identifier: cypress_template_Tal_Vargas
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Ping_Kikuchi
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_HansUlrich_Marin
+          identifier: cypress_stage_HansUlrich_Marin
+          template:
+            templateRef: cypress_template_Omer_Coetzee
+            versionLabel: v1
+            gitBranch: main-patch-1
