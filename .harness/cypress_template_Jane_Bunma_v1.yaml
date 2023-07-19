@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Jane_Bunma
+  identifier: cypress_template_Jane_Bunma
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Joan_Cruz
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Liping_Szewczyk
+          identifier: cypress_stage_Liping_Szewczyk
+          template:
+            templateRef: cypress_template_Suresh_Romanova
+            versionLabel: v1
+            gitBranch: main-patch-1
