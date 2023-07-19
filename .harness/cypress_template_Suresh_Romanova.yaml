@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Suresh_Romanova
+  identifier: cypress_template_Suresh_Romanova
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Joan_Cruz
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Yisrael_Dauda
+              identifier: cypress_template_Yisrael_Dauda
+              template:
+                templateRef: cypress_template_Yisrael_Dauda
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
