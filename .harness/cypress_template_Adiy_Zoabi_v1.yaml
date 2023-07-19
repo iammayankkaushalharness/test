@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Adiy_Zoabi
+  identifier: cypress_template_Adiy_Zoabi
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Jacobus_Thomas
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Mukesh_Gaby
+          identifier: cypress_stage_Mukesh_Gaby
+          template:
+            templateRef: cypress_template_Juan_VandenBerg
+            versionLabel: v1
+            gitBranch: main-patch
