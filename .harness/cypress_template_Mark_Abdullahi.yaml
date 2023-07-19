@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Mark_Abdullahi
+  identifier: cypress_template_Mark_Abdullahi
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Lijun_Ibrahim
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Birgir_Adan
+              identifier: cypress_template_Birgir_Adan
+              template:
+                templateRef: cypress_template_Birgir_Adan
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
