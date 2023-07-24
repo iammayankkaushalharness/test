@@ -1,0 +1,30 @@
+pipeline:
+  name: v3 triggerCheck
+  identifier: v3_triggerCheck
+  projectIdentifier: AmitTest
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: S1
+        identifier: S1
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: Http
+                  name: Http_1
+                  identifier: Http_1
+                  spec:
+                    url: https://qa.harness.io/gateway/pipeline/api/webhook/custom/96aNaNXsThShTliu0jAOYw/v3?accountIdentifier=6dPIY0B4S96mB_ivo57p9Q&orgIdentifier=default&projectIdentifier=AmitTest&pipelineIdentifier=selectiveStage&triggerIdentifier=abc
+                    method: POST
+                    headers:
+                      - key: x-api-key
+                        value: pat.6dPIY0B4S96mB_ivo57p9Q.649b08df145417538eb21c39.ZV9Izu4cl3QduNiL0OLU
+                    inputVariables: []
+                    outputVariables: []
+                    requestBody: "{\"sample_key\": \"sample_value\"}"
+                  timeout: 10s
+        tags: {}
