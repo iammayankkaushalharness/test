@@ -9,7 +9,7 @@ template:
   spec:
     stages:
       - stage:
-          name: s23
+          name: s234
           identifier: s1
           description: ""
           type: Deployment
