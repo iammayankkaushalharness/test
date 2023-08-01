@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Jane_Jaworski
           project: cypress_project_Eugenia_VanderLinden
+          inputs:
+            identifier: child_cypress_pipeline_Jane_Jaworski
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Toshiko_Ngubane
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: <+input>
