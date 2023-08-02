@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Musa_Fang
+  identifier: cypress_pipeline_Musa_Fang
+  projectIdentifier: cypress_project_Na_Hoffmann
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Samran_Sulaiman
+        identifier: cypress_stage_Samran_Sulaiman
+        template:
+          templateRef: cypress_template_Erika_Tan
+          versionLabel: v1
+          gitBranch: main
