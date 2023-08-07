@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Maciej_Gunnarsson
+  identifier: cypress_template_Maciej_Gunnarsson
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Mariusz_Kjartansson
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Santosh_Kobayashi
+              identifier: cypress_template_Santosh_Kobayashi
+              template:
+                templateRef: cypress_template_Santosh_Kobayashi
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
