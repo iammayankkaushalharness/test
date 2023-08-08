@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Jin_Roberts
+  identifier: cypress_template_Jin_Roberts
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Willem_Matsumoto
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Zandile_Chen
+              identifier: cypress_template_Zandile_Chen
+              template:
+                templateRef: cypress_template_Zandile_Chen
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
