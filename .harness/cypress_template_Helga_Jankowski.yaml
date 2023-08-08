@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Helga_Jankowski
+  identifier: cypress_template_Helga_Jankowski
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Sara_Smith
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Jianhua_Kozlova
+              identifier: cypress_template_Jianhua_Kozlova
+              template:
+                templateRef: cypress_template_Jianhua_Kozlova
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
