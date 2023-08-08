@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Jabulani_Chanthara
+  identifier: cypress_template_Jabulani_Chanthara
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Lilian_Wu
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Tadashi_Ayutthaya
+              identifier: cypress_template_Tadashi_Ayutthaya
+              template:
+                templateRef: cypress_template_Tadashi_Ayutthaya
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
