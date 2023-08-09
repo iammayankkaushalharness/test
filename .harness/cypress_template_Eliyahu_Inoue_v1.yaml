@@ -15,3 +15,9 @@ template:
             templateRef: cypress_template_Werner_Hashimoto
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Otieno_Ojo
+          identifier: cypress_stage_Otieno_Ojo
+          template:
+            templateRef: cypress_template_Beata_Castillo
+            versionLabel: v1
