@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_John_Scott
+  identifier: cypress_template_John_Scott
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Carmen_Huber
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Isah_Jacobs
+          identifier: cypress_stage_Isah_Jacobs
+          template:
+            templateRef: cypress_template_Prasoet_Ashknaziy
+            versionLabel: v1
+            gitBranch: main-patch-1
