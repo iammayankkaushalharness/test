@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Inga_Sasaki
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Irina_Liao
+          identifier: cypress_stage_Irina_Liao
+          template:
+            templateRef: cypress_template_Lilja_Reyes
+            versionLabel: v1
+            gitBranch: main-patch
