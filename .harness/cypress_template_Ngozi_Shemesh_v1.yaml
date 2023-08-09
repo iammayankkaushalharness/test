@@ -22,3 +22,9 @@ template:
             templateRef: cypress_template_Lilja_Reyes
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Daniyel_Maciejewski
+          identifier: cypress_stage_Daniyel_Maciejewski
+          template:
+            templateRef: cypress_template_Elisabeth_Egorova
+            versionLabel: v1
