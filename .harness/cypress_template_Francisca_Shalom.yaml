@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Francisca_Shalom
+  identifier: cypress_template_Francisca_Shalom
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Mark_Karanja
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Paulina_King
+              identifier: cypress_template_Paulina_King
+              template:
+                templateRef: cypress_template_Paulina_King
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
