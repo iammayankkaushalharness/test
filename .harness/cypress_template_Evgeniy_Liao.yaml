@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Evgeniy_Liao
+  identifier: cypress_template_Evgeniy_Liao
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Steinunn_Mahto
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Yakubu_Adamu
+              identifier: cypress_template_Yakubu_Adamu
+              template:
+                templateRef: cypress_template_Yakubu_Adamu
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
