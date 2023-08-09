@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Hanna_Ishikawa
+  identifier: cypress_template_Hanna_Ishikawa
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Wirot_Howells
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Roy_Attias
+              identifier: cypress_template_Roy_Attias
+              template:
+                templateRef: cypress_template_Roy_Attias
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
