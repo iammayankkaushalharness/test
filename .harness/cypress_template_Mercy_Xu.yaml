@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Mercy_Xu
+  identifier: cypress_template_Mercy_Xu
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Esther_Wen
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Anton_Wei
+              identifier: cypress_template_Anton_Wei
+              template:
+                templateRef: cypress_template_Anton_Wei
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
