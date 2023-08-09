@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Laura_Schmitt
+  identifier: cypress_template_Laura_Schmitt
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Mitsuo_Hashimoto
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Laxmi_Zhong
+              identifier: cypress_template_Laxmi_Zhong
+              template:
+                templateRef: cypress_template_Laxmi_Zhong
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
