@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Tal_Valdez
+  identifier: cypress_template_Tal_Valdez
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Emiko_Lehmann
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Chen_Ward
+              identifier: cypress_template_Chen_Ward
+              template:
+                templateRef: cypress_template_Chen_Ward
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
