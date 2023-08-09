@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Sombun_Tang
+  identifier: cypress_template_Sombun_Tang
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Phonthip_Castro
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Bello_Neumann
+              identifier: cypress_template_Bello_Neumann
+              template:
+                templateRef: cypress_template_Bello_Neumann
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
