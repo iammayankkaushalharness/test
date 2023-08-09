@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Yakubu_Castillo
+  identifier: cypress_template_Yakubu_Castillo
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Mo_Ragnarsson
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Kseniya_Hoekstra
+          identifier: cypress_stage_Kseniya_Hoekstra
+          template:
+            templateRef: cypress_template_Rose_Achieng
+            versionLabel: v1
+            gitBranch: main-patch-1
