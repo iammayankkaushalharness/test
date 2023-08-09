@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Ngozi_Shemesh
+  identifier: cypress_template_Ngozi_Shemesh
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Muhammed_Alonso
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Michal_Kaczmarek
+          identifier: cypress_stage_Michal_Kaczmarek
+          template:
+            templateRef: cypress_template_Inga_Sasaki
+            versionLabel: v1
+            gitBranch: main-patch-1
