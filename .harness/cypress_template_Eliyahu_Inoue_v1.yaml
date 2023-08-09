@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Eliyahu_Inoue
+  identifier: cypress_template_Eliyahu_Inoue
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Helgi_Khan
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Werner_Volkova
+          identifier: cypress_stage_Werner_Volkova
+          template:
+            templateRef: cypress_template_Werner_Hashimoto
+            versionLabel: v1
+            gitBranch: main-patch-1
