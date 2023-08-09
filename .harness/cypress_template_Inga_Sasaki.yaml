@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Inga_Sasaki
+  identifier: cypress_template_Inga_Sasaki
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Muhammed_Alonso
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Katarzyna_Zoabi
+              identifier: cypress_template_Katarzyna_Zoabi
+              template:
+                templateRef: cypress_template_Katarzyna_Zoabi
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
