@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Grace_Serrano
+  identifier: cypress_template_Grace_Serrano
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Igor_Visser
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Hideo_Dong
+              identifier: cypress_template_Hideo_Dong
+              template:
+                templateRef: cypress_template_Hideo_Dong
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
