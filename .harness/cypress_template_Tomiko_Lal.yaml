@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Tomiko_Lal
+  identifier: cypress_template_Tomiko_Lal
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Yael_Mohamed
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Daniyel_Schmitt
+              identifier: cypress_template_Daniyel_Schmitt
+              template:
+                templateRef: cypress_template_Daniyel_Schmitt
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
