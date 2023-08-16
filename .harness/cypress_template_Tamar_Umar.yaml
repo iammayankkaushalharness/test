@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Tamar_Umar
+  identifier: cypress_template_Tamar_Umar
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Isah_James
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Petra_Wairimu
+              identifier: cypress_template_Petra_Wairimu
+              template:
+                templateRef: cypress_template_Petra_Wairimu
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
