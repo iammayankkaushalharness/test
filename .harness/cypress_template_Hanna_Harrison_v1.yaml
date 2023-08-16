@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Tamar_Umar
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Yhudah_Schmidt
+          identifier: cypress_stage_Yhudah_Schmidt
+          template:
+            templateRef: cypress_template_Fumiko_Cao
+            versionLabel: v1
+            gitBranch: main-patch
