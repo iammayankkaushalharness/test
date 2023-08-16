@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Hanna_Harrison
+  identifier: cypress_template_Hanna_Harrison
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Isah_James
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Yong_Hongthong
+          identifier: cypress_stage_Yong_Hongthong
+          template:
+            templateRef: cypress_template_Tamar_Umar
+            versionLabel: v1
+            gitBranch: main-patch-1
