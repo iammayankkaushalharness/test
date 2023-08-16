@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Denis_Yuan
+  identifier: cypress_template_Denis_Yuan
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Mariusz_Turner
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_John_Adri
+              identifier: cypress_template_John_Adri
+              template:
+                templateRef: cypress_template_John_Adri
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
