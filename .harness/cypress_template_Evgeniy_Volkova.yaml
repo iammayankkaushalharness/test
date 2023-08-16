@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Evgeniy_Volkova
+  identifier: cypress_template_Evgeniy_Volkova
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Gang_Goto
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Catherine_Smirnova
+              identifier: cypress_template_Catherine_Smirnova
+              template:
+                templateRef: cypress_template_Catherine_Smirnova
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
