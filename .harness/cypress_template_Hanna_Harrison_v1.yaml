@@ -22,3 +22,9 @@ template:
             templateRef: cypress_template_Fumiko_Cao
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Sanjay_Hashimoto
+          identifier: cypress_stage_Sanjay_Hashimoto
+          template:
+            templateRef: cypress_template_Graham_Okafor
+            versionLabel: v1
