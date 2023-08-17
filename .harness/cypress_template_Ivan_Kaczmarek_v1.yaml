@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Pieter_Nxumalo
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Jianping_Smit
+          identifier: cypress_stage_Jianping_Smit
+          template:
+            templateRef: cypress_template_Jackline_DuPlessis
+            versionLabel: v1
+            gitBranch: main-patch
