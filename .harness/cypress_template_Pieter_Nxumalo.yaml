@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Pieter_Nxumalo
+  identifier: cypress_template_Pieter_Nxumalo
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_JoseManuel_Mizrahi
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Charles_Saeli
+              identifier: cypress_template_Charles_Saeli
+              template:
+                templateRef: cypress_template_Charles_Saeli
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
