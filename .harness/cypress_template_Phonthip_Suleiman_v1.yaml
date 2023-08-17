@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Phonthip_Suleiman
+  identifier: cypress_template_Phonthip_Suleiman
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Xiaoyan_Rubio
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Pricha_Suad
+          identifier: cypress_stage_Pricha_Suad
+          template:
+            templateRef: cypress_template_Isabel_Atieno
+            versionLabel: v1
+            gitBranch: main-patch-1
