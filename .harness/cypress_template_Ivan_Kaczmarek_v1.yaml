@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Ivan_Kaczmarek
+  identifier: cypress_template_Ivan_Kaczmarek
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_JoseManuel_Mizrahi
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Isa_Adan
+          identifier: cypress_stage_Isa_Adan
+          template:
+            templateRef: cypress_template_Pieter_Nxumalo
+            versionLabel: v1
+            gitBranch: main-patch-1
