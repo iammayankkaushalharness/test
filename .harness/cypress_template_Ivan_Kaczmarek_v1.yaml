@@ -22,3 +22,10 @@ template:
             templateRef: cypress_template_Jackline_DuPlessis
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Anton_Khumalo
+          identifier: cypress_stage_Anton_Khumalo
+          template:
+            templateRef: cypress_template_Jerzy_David
+            versionLabel: v1
+            gitBranch: main
