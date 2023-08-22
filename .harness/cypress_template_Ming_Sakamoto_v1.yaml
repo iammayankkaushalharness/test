@@ -22,3 +22,9 @@ template:
             templateRef: cypress_template_Lakshmi_VanderLinden
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Lucy_David
+          identifier: cypress_stage_Lucy_David
+          template:
+            templateRef: cypress_template_HansUlrich_Collins
+            versionLabel: v1
