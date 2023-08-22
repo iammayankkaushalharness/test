@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Isa_Morozova
+  identifier: cypress_template_Isa_Morozova
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Sita_Han
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Zanele_Hopkins
+              identifier: cypress_template_Zanele_Hopkins
+              template:
+                templateRef: cypress_template_Zanele_Hopkins
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
