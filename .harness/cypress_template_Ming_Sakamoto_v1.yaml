@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Ming_Sakamoto
+  identifier: cypress_template_Ming_Sakamoto
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Sita_Han
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Chen_Sah
+          identifier: cypress_stage_Chen_Sah
+          template:
+            templateRef: cypress_template_Isa_Morozova
+            versionLabel: v1
+            gitBranch: main-patch-1
