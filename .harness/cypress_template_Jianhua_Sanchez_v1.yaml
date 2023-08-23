@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Jianhua_Sanchez
+  identifier: cypress_template_Jianhua_Sanchez
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Yael_Kobayashi
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Ruth_Wojciechowski
+          identifier: cypress_stage_Ruth_Wojciechowski
+          template:
+            templateRef: cypress_template_Manfred_Zhu
+            versionLabel: v1
+            gitBranch: main-patch-1
