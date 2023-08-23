@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Manfred_Zhu
+  identifier: cypress_template_Manfred_Zhu
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Yael_Kobayashi
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Ning_Barman
+              identifier: cypress_template_Ning_Barman
+              template:
+                templateRef: cypress_template_Ning_Barman
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
