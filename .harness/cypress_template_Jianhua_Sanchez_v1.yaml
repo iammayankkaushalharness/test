@@ -22,3 +22,10 @@ template:
             templateRef: cypress_template_Lisa_Castillo
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Yan_Zimmermann
+          identifier: cypress_stage_Yan_Zimmermann
+          template:
+            templateRef: cypress_template_Patricia_Andreeva
+            versionLabel: v1
+            gitBranch: main
