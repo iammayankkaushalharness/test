@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Jean_Ndlovu
+  identifier: cypress_pipeline_Jean_Ndlovu
+  projectIdentifier: cypress_project_Ravi_Ostrowski
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Yuriy_Diaz
+        identifier: cypress_stage_Yuriy_Diaz
+        template:
+          templateRef: cypress_template_Rachel_Roy
+          versionLabel: v1
+          gitBranch: main
