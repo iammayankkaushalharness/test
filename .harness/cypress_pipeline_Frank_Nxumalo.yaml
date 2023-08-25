@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Yosef_Castro
           project: cypress_project_Shankar_Gao
+          inputs:
+            identifier: child_cypress_pipeline_Yosef_Castro
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Ling_Jankowski
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: <+input>
