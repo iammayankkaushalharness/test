@@ -22,3 +22,10 @@ template:
             templateRef: cypress_template_Masako_Herrera
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Suman_Mishra
+          identifier: cypress_stage_Suman_Mishra
+          template:
+            templateRef: cypress_template_Muhammed_Andreev
+            versionLabel: v1
+            gitBranch: main
