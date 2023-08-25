@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Fran_Dumont
+  identifier: cypress_pipeline_Fran_Dumont
+  projectIdentifier: cypress_project_Gunnar_Rutkowski
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Dinesh_Wilson
+        identifier: cypress_stage_Dinesh_Wilson
+        template:
+          templateRef: cypress_template_Somchai_Murakami
+          versionLabel: v1
+          gitBranch: main
