@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Otieno_Bekher
           project: cypress_project_Anah_Ohayon
+          inputs:
+            identifier: child_cypress_pipeline_Otieno_Bekher
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Christian_Baba
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: <+input>
