@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Maksim_Kibet
+  identifier: cypress_template_Maksim_Kibet
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Ana_Alonso
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Wei_Meier
+          identifier: cypress_stage_Wei_Meier
+          template:
+            templateRef: cypress_template_Jacobus_Morozova
+            versionLabel: v1
+            gitBranch: main-patch-1
