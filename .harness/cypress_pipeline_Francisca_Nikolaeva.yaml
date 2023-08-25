@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Somphon_Shi
           project: cypress_project_Hildur_Carter
+          inputs:
+            identifier: child_cypress_pipeline_Somphon_Shi
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Yoshio_Kamau
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: ""
