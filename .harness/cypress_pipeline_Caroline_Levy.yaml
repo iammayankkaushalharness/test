@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Jacek_Lebedeva
           project: cypress_project_Yelena_Kato
+          inputs:
+            identifier: child_cypress_pipeline_Jacek_Lebedeva
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Lukasz_Fuchs
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: "1"
