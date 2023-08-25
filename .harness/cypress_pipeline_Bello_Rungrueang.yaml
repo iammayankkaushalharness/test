@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Gary_Adhiambo
           project: cypress_project_Rita_Kwiatkowski
+          inputs:
+            identifier: child_cypress_pipeline_Gary_Adhiambo
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Yuriy_Sato
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: "1"
