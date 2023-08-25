@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Xiaoyan_Adri
           project: cypress_project_Gabra_Nakamura
+          inputs:
+            identifier: child_cypress_pipeline_Xiaoyan_Adri
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Nonhlanhla_Walczak
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: <+input>
