@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Heinz_Okada
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Yhudiyt_Vasileva
+          identifier: cypress_stage_Yhudiyt_Vasileva
+          template:
+            templateRef: cypress_template_Matthew_Mandal
+            versionLabel: v1
+            gitBranch: main-patch
