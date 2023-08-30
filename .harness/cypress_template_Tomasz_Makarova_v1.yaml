@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Tomasz_Makarova
+  identifier: cypress_template_Tomasz_Makarova
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Xiaohong_Mahlangu
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Leah_Lis
+          identifier: cypress_stage_Leah_Lis
+          template:
+            templateRef: cypress_template_Zanele_Nakajima
+            versionLabel: v1
+            gitBranch: main-patch-1
