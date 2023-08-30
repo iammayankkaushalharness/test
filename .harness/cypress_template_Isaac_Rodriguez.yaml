@@ -1,0 +1,20 @@
+template:
+  name: cypress_template_Isaac_Rodriguez
+  identifier: cypress_template_Isaac_Rodriguez
+  versionLabel: v12
+  type: Step
+  projectIdentifier: cypress_project_Waraphon_Sibiya
+  orgIdentifier: default
+  tags: {}
+  spec:
+    timeout: 10m
+    type: ShellScript
+    spec:
+      shell: Bash
+      onDelegate: true
+      source:
+        type: Inline
+        spec:
+          script: echo 'hello'
+      environmentVariables: []
+      outputVariables: []
