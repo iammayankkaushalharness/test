@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Heinz_Okada
+  identifier: cypress_template_Heinz_Okada
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Waraphon_Sibiya
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Isaac_Rodriguez
+              identifier: cypress_template_Isaac_Rodriguez
+              template:
+                templateRef: cypress_template_Isaac_Rodriguez
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
