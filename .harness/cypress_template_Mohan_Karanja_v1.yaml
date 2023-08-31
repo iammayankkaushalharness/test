@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Mohan_Karanja
+  identifier: cypress_template_Mohan_Karanja
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Marina_Lim
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Isah_Lee
+          identifier: cypress_stage_Isah_Lee
+          template:
+            templateRef: cypress_template_Amit_Vasilev
+            versionLabel: v1
+            gitBranch: main-patch-1
