@@ -22,3 +22,10 @@ template:
             templateRef: cypress_template_Unnur_Petrov
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Sri_Cooper
+          identifier: cypress_stage_Sri_Cooper
+          template:
+            templateRef: cypress_template_Yasuko_Rotich
+            versionLabel: v1
+            gitBranch: main
