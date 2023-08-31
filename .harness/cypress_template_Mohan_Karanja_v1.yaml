@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Amit_Vasilev
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Sommai_Phillips
+          identifier: cypress_stage_Sommai_Phillips
+          template:
+            templateRef: cypress_template_Unnur_Petrov
+            versionLabel: v1
+            gitBranch: main-patch
