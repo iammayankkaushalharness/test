@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Gunnar_Bala
           project: cypress_project_Raju_Rosenberg
+          inputs:
+            identifier: child_cypress_pipeline_Gunnar_Bala
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Lindiwe_Helgason
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s
