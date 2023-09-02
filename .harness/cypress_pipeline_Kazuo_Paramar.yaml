@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Kazuo_Paramar
+  identifier: cypress_pipeline_Kazuo_Paramar
+  projectIdentifier: cypress_project_Dieter_Werner
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Gisela_Zawadzki
+          project: cypress_project_Dieter_Werner
