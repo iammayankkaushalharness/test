@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Hong_Garrido
+  identifier: cypress_pipeline_Hong_Garrido
+  projectIdentifier: cypress_project_Anong_Czarnecki
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Michael_Haraldsson
+        identifier: cypress_stage_Michael_Haraldsson
+        template:
+          templateRef: cypress_template_Shimon_Mofokeng
+          versionLabel: v1
+          gitBranch: main
