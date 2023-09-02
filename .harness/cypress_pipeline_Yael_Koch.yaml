@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_MariaJose_Bitton
           project: cypress_project_Kai_Saetan
+          inputs:
+            identifier: child_cypress_pipeline_MariaJose_Bitton
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Joseph_Prieto
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s
