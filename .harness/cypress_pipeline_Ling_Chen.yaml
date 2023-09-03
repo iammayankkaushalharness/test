@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Ling_Chen
+  identifier: cypress_pipeline_Ling_Chen
+  projectIdentifier: cypress_project_Miykhal_Owino
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Avraham_Sisuk
+        identifier: cypress_stage_Avraham_Sisuk
+        template:
+          templateRef: cypress_template_Nadezhda_Dudek
+          versionLabel: v1
+          gitBranch: main
