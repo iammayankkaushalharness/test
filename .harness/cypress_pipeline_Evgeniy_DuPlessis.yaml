@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Evgeniy_DuPlessis
+  identifier: cypress_pipeline_Evgeniy_DuPlessis
+  projectIdentifier: cypress_project_Phonthip_Clarke
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Isa_Omondi
+        identifier: cypress_stage_Isa_Omondi
+        template:
+          templateRef: cypress_template_Dilip_Yang
+          versionLabel: v1
+          gitBranch: main
