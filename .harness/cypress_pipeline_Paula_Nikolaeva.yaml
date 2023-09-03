@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Paula_Nikolaeva
+  identifier: cypress_pipeline_Paula_Nikolaeva
+  projectIdentifier: cypress_project_Charles_Sisuk
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Li_Zwane
+        identifier: cypress_stage_Li_Zwane
+        template:
+          templateRef: cypress_template_Olga_Sakamoto
+          versionLabel: v1
+          gitBranch: main
