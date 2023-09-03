@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Rajendra_Omondi
+  identifier: cypress_pipeline_Rajendra_Omondi
+  projectIdentifier: cypress_project_Birna_Musa
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Hildur_Hartmann
+        identifier: cypress_stage_Hildur_Hartmann
+        template:
+          templateRef: cypress_template_Andreas_Braun
+          versionLabel: v1
+          gitBranch: main
