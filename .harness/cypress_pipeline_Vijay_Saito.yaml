@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Lan_Marin
           project: cypress_project_Richard_Romanov
+          inputs:
+            identifier: child_cypress_pipeline_Lan_Marin
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Kun_Ota
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: "15"
