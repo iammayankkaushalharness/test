@@ -22,3 +22,9 @@ template:
             templateRef: cypress_template_Shlomo_Xie
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Thomas_Piotrowski
+          identifier: cypress_stage_Thomas_Piotrowski
+          template:
+            templateRef: cypress_template_Maksim_Gonzales
+            versionLabel: v1
