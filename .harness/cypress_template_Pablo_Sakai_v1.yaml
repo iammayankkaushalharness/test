@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Agata_Guerrero
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Radha_Klein
+          identifier: cypress_stage_Radha_Klein
+          template:
+            templateRef: cypress_template_Simon_Herrera
+            versionLabel: v1
+            gitBranch: main-patch
