@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Pieter_Yahaya
+  identifier: cypress_template_Pieter_Yahaya
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Kevin_VanDam
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Werner_Shaikh
+          identifier: cypress_stage_Werner_Shaikh
+          template:
+            templateRef: cypress_template_Sushila_Vermeulen
+            versionLabel: v1
+            gitBranch: main-patch-1
