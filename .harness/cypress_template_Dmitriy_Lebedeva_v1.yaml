@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Salisu_King
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Yu_Endo
+          identifier: cypress_stage_Yu_Endo
+          template:
+            templateRef: cypress_template_Anita_Wanjiku
+            versionLabel: v1
+            gitBranch: main-patch
