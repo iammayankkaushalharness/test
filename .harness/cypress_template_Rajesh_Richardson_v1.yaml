@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Rajesh_Richardson
+  identifier: cypress_template_Rajesh_Richardson
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Xiang_Watkins
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Sushila_Volkov
+          identifier: cypress_stage_Sushila_Volkov
+          template:
+            templateRef: cypress_template_Jakub_Luo
+            versionLabel: v1
+            gitBranch: main-patch-1
