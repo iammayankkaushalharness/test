@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Gita_Katz
+  identifier: cypress_template_Gita_Katz
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Cheng_Khan
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Avraham_Ojo
+          identifier: cypress_stage_Avraham_Ojo
+          template:
+            templateRef: cypress_template_Kseniya_Thompson
+            versionLabel: v1
+            gitBranch: main-patch-1
