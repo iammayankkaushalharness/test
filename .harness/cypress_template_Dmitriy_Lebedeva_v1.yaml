@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Dmitriy_Lebedeva
+  identifier: cypress_template_Dmitriy_Lebedeva
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Sombat_Arnarson
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Wei_Esteban
+          identifier: cypress_stage_Wei_Esteban
+          template:
+            templateRef: cypress_template_Salisu_King
+            versionLabel: v1
+            gitBranch: main-patch-1
