@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Rebecca_Moshe
+  identifier: cypress_template_Rebecca_Moshe
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Elizabeth_He
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Walter_Pritchard
+              identifier: cypress_template_Walter_Pritchard
+              template:
+                templateRef: cypress_template_Walter_Pritchard
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
