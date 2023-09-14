@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Pablo_Sakai
+  identifier: cypress_template_Pablo_Sakai
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Otieno_Werner
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Sri_Blom
+          identifier: cypress_stage_Sri_Blom
+          template:
+            templateRef: cypress_template_Agata_Guerrero
+            versionLabel: v1
+            gitBranch: main-patch-1
