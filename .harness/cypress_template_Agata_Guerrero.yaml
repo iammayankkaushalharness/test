@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Agata_Guerrero
+  identifier: cypress_template_Agata_Guerrero
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Otieno_Werner
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Alan_Smirnova
+              identifier: cypress_template_Alan_Smirnova
+              template:
+                templateRef: cypress_template_Alan_Smirnova
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
