@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Kseniya_Thompson
+  identifier: cypress_template_Kseniya_Thompson
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Cheng_Khan
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Alejandro_Matthews
+              identifier: cypress_template_Alejandro_Matthews
+              template:
+                templateRef: cypress_template_Alejandro_Matthews
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
