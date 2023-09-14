@@ -22,3 +22,9 @@ template:
             templateRef: cypress_template_Anan_Hongthong
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Anil_King
+          identifier: cypress_stage_Anil_King
+          template:
+            templateRef: cypress_template_Bjarni_Wangui
+            versionLabel: v1
