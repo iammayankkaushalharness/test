@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Somkhit_Qiu
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Artyom_Deng
+          identifier: cypress_stage_Artyom_Deng
+          template:
+            templateRef: cypress_template_Somkhit_Yamamoto
+            versionLabel: v1
+            gitBranch: main-patch
