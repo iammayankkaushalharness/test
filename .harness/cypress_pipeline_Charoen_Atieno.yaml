@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Isah_Frolova
           project: cypress_project_Pricha_Yu
+          inputs:
+            identifier: child_cypress_pipeline_Isah_Frolova
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Xin_Thongsuk
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s
