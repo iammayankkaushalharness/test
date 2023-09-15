@@ -22,3 +22,9 @@ template:
             templateRef: cypress_template_Somkhit_Yamamoto
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Mercy_Richter
+          identifier: cypress_stage_Mercy_Richter
+          template:
+            templateRef: cypress_template_Prasit_Jabarin
+            versionLabel: v1
