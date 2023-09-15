@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Eva_Usman
+  identifier: cypress_template_Eva_Usman
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Hendrik_Panya
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Yong_Otieno
+          identifier: cypress_stage_Yong_Otieno
+          template:
+            templateRef: cypress_template_Somkhit_Qiu
+            versionLabel: v1
+            gitBranch: main-patch-1
