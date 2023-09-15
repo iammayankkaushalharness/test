@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Pablo_Umaru
+  identifier: cypress_template_Pablo_Umaru
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Hanna_Khoury
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Dinesh_Peng
+          identifier: cypress_stage_Dinesh_Peng
+          template:
+            templateRef: cypress_template_Olga_Andreev
+            versionLabel: v1
+            gitBranch: main-patch-1
