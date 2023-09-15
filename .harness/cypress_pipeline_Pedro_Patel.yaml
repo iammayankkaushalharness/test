@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Dorota_Rutkowski
           project: cypress_project_Somnuek_King
+          inputs:
+            identifier: child_cypress_pipeline_Dorota_Rutkowski
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Haiyan_Lewis
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s
