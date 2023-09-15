@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Koshi_Gaby
+  identifier: cypress_template_Koshi_Gaby
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Jane_Sunday
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Brian_Howells
+          identifier: cypress_stage_Brian_Howells
+          template:
+            templateRef: cypress_template_Erla_Tian
+            versionLabel: v1
+            gitBranch: main-patch-1
