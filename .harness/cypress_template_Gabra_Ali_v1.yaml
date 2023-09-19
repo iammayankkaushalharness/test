@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Gabra_Ali
+  identifier: cypress_template_Gabra_Ali
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Arun_Sikora
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Wanjiru_Guerrero
+          identifier: cypress_stage_Wanjiru_Guerrero
+          template:
+            templateRef: cypress_template_Anan_Idris
+            versionLabel: v1
+            gitBranch: main-patch-1
