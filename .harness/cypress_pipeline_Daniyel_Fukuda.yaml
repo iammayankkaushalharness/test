@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Daniyel_Fukuda
+  identifier: cypress_pipeline_Daniyel_Fukuda
+  projectIdentifier: cypress_project_Xiaoping_Zhong
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Abdullahi_Adri
+        identifier: cypress_stage_Abdullahi_Adri
+        template:
+          templateRef: cypress_template_Xiaoyan_Bala
+          versionLabel: v1
+          gitBranch: main
