@@ -15,3 +15,9 @@ template:
             templateRef: cypress_template_Anan_Idris
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_AnaMaria_Medina
+          identifier: cypress_stage_AnaMaria_Medina
+          template:
+            templateRef: cypress_template_Sawat_Garcia
+            versionLabel: v1
