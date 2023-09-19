@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Anan_Idris
+  identifier: cypress_template_Anan_Idris
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Arun_Sikora
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Sarah_Muhammad
+              identifier: cypress_template_Sarah_Muhammad
+              template:
+                templateRef: cypress_template_Sarah_Muhammad
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
