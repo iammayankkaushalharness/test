@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Wilai_Ashknaziy
+  identifier: cypress_template_Wilai_Ashknaziy
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Vincent_Petrov
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Kasia_Fang
+              identifier: cypress_template_Kasia_Fang
+              template:
+                templateRef: cypress_template_Kasia_Fang
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
