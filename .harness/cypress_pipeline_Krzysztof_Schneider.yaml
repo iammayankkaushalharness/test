@@ -30,6 +30,7 @@ pipeline:
           outputs: []
         failureStrategies:
           - onFailure:
-              errors: []
+              errors:
+                - AllErrors
               action:
                 type: Ignore
