@@ -26,7 +26,7 @@ pipeline:
                         - step:
                             identifier: testStep
                             type: ShellScript
-                            timeout: 10s
+                            timeout: 15s
           outputs: []
         failureStrategies:
           - onFailure:
