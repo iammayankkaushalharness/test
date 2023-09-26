@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Ling_Bos
+  identifier: cypress_pipeline_Ling_Bos
+  projectIdentifier: cypress_project_Esther_Shapiro
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Dmitry_Umaru
+          project: cypress_project_Esther_Shapiro
