@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Yuliya_Devi
+  identifier: cypress_template_Yuliya_Devi
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Chan_Clarke
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Kun_Zwane
+          identifier: cypress_stage_Kun_Zwane
+          template:
+            templateRef: cypress_template_Francisca_Grabowski
+            versionLabel: v1
+            gitBranch: main-patch-1
