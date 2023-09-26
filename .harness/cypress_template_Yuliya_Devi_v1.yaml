@@ -22,3 +22,9 @@ template:
             templateRef: cypress_template_Ruth_Kumar
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Udom_Marciniak
+          identifier: cypress_stage_Udom_Marciniak
+          template:
+            templateRef: cypress_template_Manoj_Karlsson
+            versionLabel: v1
