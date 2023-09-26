@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Mitsuo_Watkins
           project: cypress_project_Yael_Segel
+          inputs:
+            identifier: child_cypress_pipeline_Mitsuo_Watkins
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Wanchai_Zaytseva
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s
