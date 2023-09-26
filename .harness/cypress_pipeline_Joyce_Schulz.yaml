@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Joyce_Schulz
+  identifier: cypress_pipeline_Joyce_Schulz
+  projectIdentifier: cypress_project_Keiko_Lewis
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Ling_Ramirez
+          project: cypress_project_Keiko_Lewis
