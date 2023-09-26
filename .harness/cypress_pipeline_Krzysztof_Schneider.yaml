@@ -34,3 +34,4 @@ pipeline:
                 - AllErrors
               action:
                 type: Ignore
+        tags: {}
