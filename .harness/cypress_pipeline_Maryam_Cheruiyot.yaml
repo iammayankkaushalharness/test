@@ -26,4 +26,4 @@ pipeline:
                         - step:
                             identifier: testStep
                             type: ShellScript
-                            timeout: <+input>
+                            timeout: 15s
