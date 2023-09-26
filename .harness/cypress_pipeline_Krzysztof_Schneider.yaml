@@ -28,7 +28,6 @@ pipeline:
                             type: ShellScript
                             timeout: 15s
           outputs: []
-        tags: {}
         failureStrategies:
           - onFailure:
               errors: []
