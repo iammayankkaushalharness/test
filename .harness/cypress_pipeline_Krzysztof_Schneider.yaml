@@ -27,3 +27,4 @@ pipeline:
                             identifier: testStep
                             type: ShellScript
                             timeout: 15s
+          outputs: []
