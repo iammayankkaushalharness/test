@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Francisca_Grabowski
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Nikita_Chaichana
+          identifier: cypress_stage_Nikita_Chaichana
+          template:
+            templateRef: cypress_template_Ruth_Kumar
+            versionLabel: v1
+            gitBranch: main-patch
