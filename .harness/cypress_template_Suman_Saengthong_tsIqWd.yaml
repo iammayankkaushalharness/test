@@ -1,0 +1,20 @@
+template:
+  name: cypress_template_Suman_Saengthong_tsIqWd
+  identifier: cypress_template_Suman_Saengthong_tsIqWd
+  versionLabel: v12
+  type: Step
+  projectIdentifier: cypress_project_Fiona_Kozlov_JJHYHb
+  orgIdentifier: default
+  tags: {}
+  spec:
+    timeout: 10m
+    type: ShellScript
+    spec:
+      shell: Bash
+      onDelegate: true
+      source:
+        type: Inline
+        spec:
+          script: echo 'hello'
+      environmentVariables: []
+      outputVariables: []
