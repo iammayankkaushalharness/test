@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Laxmi_Wambui_csrdcd
+  identifier: cypress_template_Laxmi_Wambui_csrdcd
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Nikolay_Schulz_WZcXbX
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Sammy_Soto_ZbbJrr
+              identifier: cypress_template_Sammy_Soto_ZbbJrr
+              template:
+                templateRef: cypress_template_Sammy_Soto_ZbbJrr
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
