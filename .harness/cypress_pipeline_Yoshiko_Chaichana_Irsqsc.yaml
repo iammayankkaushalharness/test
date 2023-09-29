@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Yoshiko_Chaichana_Irsqsc
+  identifier: cypress_pipeline_Yoshiko_Chaichana_Irsqsc
+  projectIdentifier: cypress_project_Tal_Dudek_GsGZdb
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Aleksandra_Maas_GcGGcY
+        identifier: cypress_stage_Aleksandra_Maas_GcGGcY
+        template:
+          templateRef: cypress_template_Bin_Nikolaev_JIIaIt
+          versionLabel: v1
+          gitBranch: main
