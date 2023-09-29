@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Peter_Thompson_WaHaGa
+  identifier: cypress_pipeline_Peter_Thompson_WaHaGa
+  projectIdentifier: cypress_project_Arnar_Popova_bXYGqq
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Charoen_Kibet_arJqXI
+        identifier: cypress_stage_Charoen_Kibet_arJqXI
+        template:
+          templateRef: cypress_template_Zhen_Photsi_dWZqsa
+          versionLabel: v1
+          gitBranch: main
