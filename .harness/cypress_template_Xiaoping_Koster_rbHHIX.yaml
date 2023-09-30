@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Xiaoping_Koster_rbHHIX
+  identifier: cypress_template_Xiaoping_Koster_rbHHIX
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Lilian_Mitchell_WWIcst
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Shizuko_Ray_bWcHsq
+              identifier: cypress_template_Shizuko_Ray_bWcHsq
+              template:
+                templateRef: cypress_template_Shizuko_Ray_bWcHsq
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
