@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Yisrael_Jiang_XbIZdW
+  identifier: cypress_pipeline_Yisrael_Jiang_XbIZdW
+  projectIdentifier: cypress_project_Miykhael_Malinowski_tZcrqq
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Iwona_Reuben_YYWIYs
+          project: cypress_project_Miykhael_Malinowski_tZcrqq
