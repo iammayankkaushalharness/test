@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Keiko_Bello_IZHara
+  identifier: cypress_pipeline_Keiko_Bello_IZHara
+  projectIdentifier: cypress_project_Brigitte_Pal_JGqaId
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Bongani_Sharma_bXWZaW
+          project: cypress_project_Brigitte_Pal_JGqaId
