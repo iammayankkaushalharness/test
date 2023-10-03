@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Anan_Rogers_sZsbtY
+  identifier: cypress_template_Anan_Rogers_sZsbtY
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Sunil_Hoekstra_WtWXXs
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Sani_Kristinsson_XsIJIt
+              identifier: cypress_template_Sani_Kristinsson_XsIJIt
+              template:
+                templateRef: cypress_template_Sani_Kristinsson_XsIJIt
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
