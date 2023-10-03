@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Abdul_Tian_tscJHa
+  identifier: cypress_pipeline_Abdul_Tian_tscJHa
+  projectIdentifier: cypress_project_Rakesh_Njoroge_dtdHct
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Hiroshi_Reuben_ZWJsdI
+        identifier: cypress_stage_Hiroshi_Reuben_ZWJsdI
+        template:
+          templateRef: cypress_template_Daniel_Suleiman_XHJctJ
+          versionLabel: v1
