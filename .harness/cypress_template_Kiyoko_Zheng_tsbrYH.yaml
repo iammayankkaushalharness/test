@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Kiyoko_Zheng_tsbrYH
+  identifier: cypress_template_Kiyoko_Zheng_tsbrYH
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Sri_Ceng_JsrqJr
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Sam_Allen_qtbrZt
+              identifier: cypress_template_Sam_Allen_qtbrZt
+              template:
+                templateRef: cypress_template_Sam_Allen_qtbrZt
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
