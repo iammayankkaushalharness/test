@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Hiroko_Garrido_YIJJGa
+  identifier: cypress_pipeline_Hiroko_Garrido_YIJJGa
+  projectIdentifier: cypress_project_Sushila_Bibi_YsHHrI
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Gary_Nikolaev_tGYXIa
+        identifier: cypress_stage_Gary_Nikolaev_tGYXIa
+        template:
+          templateRef: cypress_template_Lei_Aliyu_qXYrqq
+          versionLabel: v1
