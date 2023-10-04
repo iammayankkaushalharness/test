@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Denis_Suarez_tWdIXH
           project: cypress_project_Ingrid_Zhao_qrHYGX
+          inputs:
+            identifier: child_cypress_pipeline_Denis_Suarez_tWdIXH
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Franz_Malkah_ZbJdtG
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s
