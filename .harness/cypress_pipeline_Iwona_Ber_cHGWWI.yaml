@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Somphon_Soto_aIZXtb
           project: cypress_project_Ekaterina_Green_JHIbbq
+          inputs:
+            identifier: child_cypress_pipeline_Somphon_Soto_aIZXtb
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Sri_Lawal_rdbtas
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: "1"
