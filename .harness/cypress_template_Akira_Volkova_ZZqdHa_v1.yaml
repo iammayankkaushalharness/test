@@ -15,3 +15,9 @@ template:
             templateRef: cypress_template_Laura_Maeda_cdGZda
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Ping_Zaytseva_aZJtGJ
+          identifier: cypress_stage_Ping_Zaytseva_aZJtGJ
+          template:
+            templateRef: cypress_template_Haruna_John_tHIssd
+            versionLabel: v1
