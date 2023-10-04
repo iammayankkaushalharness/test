@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Igor_Odhiambo_GWYrbJ
+  identifier: cypress_template_Igor_Odhiambo_GWYrbJ
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Jianping_Karanja_GdasaJ
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Jin_Cook_qWaJIq
+              identifier: cypress_template_Jin_Cook_qWaJIq
+              template:
+                templateRef: cypress_template_Jin_Cook_qWaJIq
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
