@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Anong_Yosef_cdWXXt
+  identifier: cypress_pipeline_Anong_Yosef_cdWXXt
+  projectIdentifier: cypress_project_Chao_Bai_rIqGsr
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Ursula_Flores_ZGHJbb
+          project: cypress_project_Chao_Bai_rIqGsr
