@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Akira_Volkova_ZZqdHa
+  identifier: cypress_template_Akira_Volkova_ZZqdHa
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Jianhua_Mtshali_YHcZXt
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Anthony_Sanchez_tJJGtt
+          identifier: cypress_stage_Anthony_Sanchez_tJJGtt
+          template:
+            templateRef: cypress_template_Laura_Maeda_cdGZda
+            versionLabel: v1
+            gitBranch: main-patch-1
