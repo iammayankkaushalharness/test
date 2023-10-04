@@ -22,3 +22,10 @@ template:
             templateRef: cypress_template_Grzegorz_Pal_IWaGHY
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Sergio_Hernandez_aYraJb
+          identifier: cypress_stage_Sergio_Hernandez_aYraJb
+          template:
+            templateRef: cypress_template_HansUlrich_Omondi_satXYX
+            versionLabel: v1
+            gitBranch: main
