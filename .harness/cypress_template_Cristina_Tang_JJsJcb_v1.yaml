@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Cristina_Tang_JJsJcb
+  identifier: cypress_template_Cristina_Tang_JJsJcb
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Jianping_Karanja_GdasaJ
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Yun_Sharabi_dbrtcI
+          identifier: cypress_stage_Yun_Sharabi_dbrtcI
+          template:
+            templateRef: cypress_template_Igor_Odhiambo_GWYrbJ
+            versionLabel: v1
+            gitBranch: main-patch-1
