@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Laura_Maeda_cdGZda
+  identifier: cypress_template_Laura_Maeda_cdGZda
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Jianhua_Mtshali_YHcZXt
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Rosa_Rogers_ZIbcsJ
+              identifier: cypress_template_Rosa_Rogers_ZIbcsJ
+              template:
+                templateRef: cypress_template_Rosa_Rogers_ZIbcsJ
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
