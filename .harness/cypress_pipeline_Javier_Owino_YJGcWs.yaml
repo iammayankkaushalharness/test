@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Yoshie_Wright_GdJacX
           project: cypress_project_Hadiza_Alonso_ttqZWY
+          inputs:
+            identifier: child_cypress_pipeline_Yoshie_Wright_GdJacX
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Emiko_Mori_rtttrr
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: <+input>
