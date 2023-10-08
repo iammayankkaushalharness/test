@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Noam_Sarkar_rXsJrs
+  identifier: cypress_pipeline_Noam_Sarkar_rXsJrs
+  projectIdentifier: cypress_project_Xin_Marek_GGHcrb
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Shoji_Bailey_WYsIZW
+          project: cypress_project_Xin_Marek_GGHcrb
