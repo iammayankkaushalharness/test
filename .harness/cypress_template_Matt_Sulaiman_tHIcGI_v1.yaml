@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Matt_Sulaiman_tHIcGI
+  identifier: cypress_template_Matt_Sulaiman_tHIcGI
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Adamu_Gu_tHbtYd
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Lin_Sunday_sYrWqd
+          identifier: cypress_stage_Lin_Sunday_sYrWqd
+          template:
+            templateRef: cypress_template_Sanjay_Jankowski_ZGIbWc
+            versionLabel: v1
+            gitBranch: main-patch-1
