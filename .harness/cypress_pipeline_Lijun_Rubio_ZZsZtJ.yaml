@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Roy_Jiang_IbsYra
           project: cypress_project_Hauwa_Prasad_bcctHI
+          inputs:
+            identifier: child_cypress_pipeline_Roy_Jiang_IbsYra
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Sunday_Muhammed_statIq
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: "1"
