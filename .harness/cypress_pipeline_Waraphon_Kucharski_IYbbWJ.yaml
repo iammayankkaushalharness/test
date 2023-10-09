@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Waraphon_Kucharski_IYbbWJ
+  identifier: cypress_pipeline_Waraphon_Kucharski_IYbbWJ
+  projectIdentifier: cypress_project_Birna_Prasad_HIXWcX
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Mark_Haraldsson_qdtddY
+          project: cypress_project_Birna_Prasad_HIXWcX
