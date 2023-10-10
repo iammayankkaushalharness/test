@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Suresh_Zaytseva_GrXbtX
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Carlos_Avraham_ddtIHI
+          identifier: cypress_stage_Carlos_Avraham_ddtIHI
+          template:
+            templateRef: cypress_template_Thomas_Zhu_cZcIIa
+            versionLabel: v1
+            gitBranch: main-patch
