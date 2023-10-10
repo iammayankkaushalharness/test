@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Lijun_Thongsuk_qGXtHX
+  identifier: cypress_template_Lijun_Thongsuk_qGXtHX
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Saman_Achieng_bIGbXY
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Dorota_Morales_qYIHqG
+          identifier: cypress_stage_Dorota_Morales_qYIHqG
+          template:
+            templateRef: cypress_template_Isabel_Thongkham_JHaWWJ
+            versionLabel: v1
+            gitBranch: main-patch-1
