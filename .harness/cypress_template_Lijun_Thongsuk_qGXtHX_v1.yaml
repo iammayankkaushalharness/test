@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Isabel_Thongkham_JHaWWJ
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Tatyana_Esteban_tdYass
+          identifier: cypress_stage_Tatyana_Esteban_tdYass
+          template:
+            templateRef: cypress_template_Nobuko_Rowlands_HIXJct
+            versionLabel: v1
+            gitBranch: main-patch
