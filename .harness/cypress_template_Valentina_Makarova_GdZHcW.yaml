@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Valentina_Makarova_GdZHcW
+  identifier: cypress_template_Valentina_Makarova_GdZHcW
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Asha_Takeuchi_Hadbtt
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Joyce_Sharma_WIXXHW
+              identifier: cypress_template_Joyce_Sharma_WIXXHW
+              template:
+                templateRef: cypress_template_Joyce_Sharma_WIXXHW
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
