@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Elke_Avraham_bIJrYs
+  identifier: cypress_template_Elke_Avraham_bIJrYs
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Agnieszka_Gil_XHIZst
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Lilian_Ortiz_qIJGWI
+              identifier: cypress_template_Lilian_Ortiz_qIJGWI
+              template:
+                templateRef: cypress_template_Lilian_Ortiz_qIJGWI
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
