@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Somchit_Langat_tdsbtc
+  identifier: cypress_template_Somchit_Langat_tdsbtc
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Carol_Saelim_YItbcs
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Salisu_Svoboda_daZWZd
+              identifier: cypress_template_Salisu_Svoboda_daZWZd
+              template:
+                templateRef: cypress_template_Salisu_Svoboda_daZWZd
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
