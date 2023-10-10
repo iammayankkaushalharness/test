@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Nan_Guo_HWJrYq
+  identifier: cypress_template_Nan_Guo_HWJrYq
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Sunday_Tian_sbdGrJ
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Laxmi_Agbaria_HaWJcb
+          identifier: cypress_stage_Laxmi_Agbaria_HaWJcb
+          template:
+            templateRef: cypress_template_Suresh_Zaytseva_GrXbtX
+            versionLabel: v1
+            gitBranch: main-patch-1
