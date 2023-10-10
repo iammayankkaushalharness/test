@@ -22,3 +22,9 @@ template:
             templateRef: cypress_template_Thomas_Zhu_cZcIIa
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Somchai_Thongsuk_GcWsrZ
+          identifier: cypress_stage_Somchai_Thongsuk_GcWsrZ
+          template:
+            templateRef: cypress_template_Joan_Chen_accYXs
+            versionLabel: v1
