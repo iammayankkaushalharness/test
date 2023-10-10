@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Isabel_Thongkham_JHaWWJ
+  identifier: cypress_template_Isabel_Thongkham_JHaWWJ
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Saman_Achieng_bIGbXY
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Simon_Schmid_qarsdb
+              identifier: cypress_template_Simon_Schmid_qarsdb
+              template:
+                templateRef: cypress_template_Simon_Schmid_qarsdb
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
