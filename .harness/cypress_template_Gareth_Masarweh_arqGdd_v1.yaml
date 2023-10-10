@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Somchit_Langat_tdsbtc
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Sveinn_Perez_aYbWIa
+          identifier: cypress_stage_Sveinn_Perez_aYbWIa
+          template:
+            templateRef: cypress_template_Brigitte_DeJong_ZHJtas
+            versionLabel: v1
+            gitBranch: main-patch
