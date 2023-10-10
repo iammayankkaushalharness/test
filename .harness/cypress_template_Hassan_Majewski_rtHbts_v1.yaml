@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Valentina_Makarova_GdZHcW
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Jabulani_Lavyan_IcJIcH
+          identifier: cypress_stage_Jabulani_Lavyan_IcJIcH
+          template:
+            templateRef: cypress_template_MariaPilar_Arai_baqbtH
+            versionLabel: v1
+            gitBranch: main-patch
