@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Gareth_Masarweh_arqGdd
+  identifier: cypress_template_Gareth_Masarweh_arqGdd
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Carol_Saelim_YItbcs
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Helgi_Walczak_Gdcbcb
+          identifier: cypress_stage_Helgi_Walczak_Gdcbcb
+          template:
+            templateRef: cypress_template_Somchit_Langat_tdsbtc
+            versionLabel: v1
+            gitBranch: main-patch-1
