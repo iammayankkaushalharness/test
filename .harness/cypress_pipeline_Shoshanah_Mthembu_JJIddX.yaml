@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Raju_Nkosi_crrtJW
           project: cypress_project_Mina_Wei_bXaJGa
+          inputs:
+            identifier: child_cypress_pipeline_Raju_Nkosi_crrtJW
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Matthew_Owino_Xccsdd
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s
