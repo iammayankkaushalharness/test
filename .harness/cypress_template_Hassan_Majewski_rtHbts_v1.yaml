@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Hassan_Majewski_rtHbts
+  identifier: cypress_template_Hassan_Majewski_rtHbts
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Asha_Takeuchi_Hadbtt
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Lei_Mendoza_IsacXa
+          identifier: cypress_stage_Lei_Mendoza_IsacXa
+          template:
+            templateRef: cypress_template_Valentina_Makarova_GdZHcW
+            versionLabel: v1
+            gitBranch: main-patch-1
