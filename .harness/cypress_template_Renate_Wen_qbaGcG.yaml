@@ -1,0 +1,20 @@
+template:
+  name: cypress_template_Renate_Wen_qbaGcG
+  identifier: cypress_template_Renate_Wen_qbaGcG
+  versionLabel: v12
+  type: Step
+  projectIdentifier: cypress_project_Lei_Mahagna_rXHtZq
+  orgIdentifier: default
+  tags: {}
+  spec:
+    timeout: 10m
+    type: ShellScript
+    spec:
+      shell: Bash
+      onDelegate: true
+      source:
+        type: Inline
+        spec:
+          script: echo 'hello'
+      environmentVariables: []
+      outputVariables: []
