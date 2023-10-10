@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Kristina_Pal_ddHbHG
+  identifier: cypress_template_Kristina_Pal_ddHbHG
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Lei_Mahagna_rXHtZq
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Renate_Wen_qbaGcG
+              identifier: cypress_template_Renate_Wen_qbaGcG
+              template:
+                templateRef: cypress_template_Renate_Wen_qbaGcG
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
