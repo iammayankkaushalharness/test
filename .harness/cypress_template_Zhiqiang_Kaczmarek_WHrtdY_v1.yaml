@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Zhiqiang_Kaczmarek_WHrtdY
+  identifier: cypress_template_Zhiqiang_Kaczmarek_WHrtdY
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Agnieszka_Gil_XHIZst
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Aisha_Omondi_ZWHqGW
+          identifier: cypress_stage_Aisha_Omondi_ZWHqGW
+          template:
+            templateRef: cypress_template_Elke_Avraham_bIJrYs
+            versionLabel: v1
+            gitBranch: main-patch-1
