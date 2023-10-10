@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Suresh_Zaytseva_GrXbtX
+  identifier: cypress_template_Suresh_Zaytseva_GrXbtX
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Sunday_Tian_sbdGrJ
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Kun_Schmitt_sIJqWW
+              identifier: cypress_template_Kun_Schmitt_sIJqWW
+              template:
+                templateRef: cypress_template_Kun_Schmitt_sIJqWW
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
