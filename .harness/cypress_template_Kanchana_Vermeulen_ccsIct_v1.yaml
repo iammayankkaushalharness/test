@@ -22,3 +22,9 @@ template:
             templateRef: cypress_template_Kjartan_Lozano_ZWssaJ
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Moshe_Ojo_JWsstI
+          identifier: cypress_stage_Moshe_Ojo_JWsstI
+          template:
+            templateRef: cypress_template_Lilian_Owen_GcsWbZ
+            versionLabel: v1
