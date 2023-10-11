@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Chayah_Peretz_WJJdsX
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Laxmi_Rumbelow_HYItHY
+          identifier: cypress_stage_Laxmi_Rumbelow_HYItHY
+          template:
+            templateRef: cypress_template_Kjartan_Lozano_ZWssaJ
+            versionLabel: v1
+            gitBranch: main-patch
