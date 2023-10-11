@@ -22,3 +22,9 @@ template:
             templateRef: cypress_template_Rachel_Willems_GYtqXJ
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Einar_Bunma_abJttc
+          identifier: cypress_stage_Einar_Bunma_abJttc
+          template:
+            templateRef: cypress_template_Karen_Huisman_sdqtIs
+            versionLabel: v1
