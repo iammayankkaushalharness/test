@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Juan_Ono_sHrXaa
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Roman_Gomez_abaaZs
+          identifier: cypress_stage_Roman_Gomez_abaaZs
+          template:
+            templateRef: cypress_template_Liyor_Castillo_XIdrXG
+            versionLabel: v1
+            gitBranch: main-patch
