@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Paula_Santiago_tZGHqI
+  identifier: cypress_template_Paula_Santiago_tZGHqI
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Peng_Haruna_JbXWJG
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Somchit_Lawal_bsbIJH
+          identifier: cypress_stage_Somchit_Lawal_bsbIJH
+          template:
+            templateRef: cypress_template_Leah_Mitchell_tttHcW
+            versionLabel: v1
+            gitBranch: main-patch-1
