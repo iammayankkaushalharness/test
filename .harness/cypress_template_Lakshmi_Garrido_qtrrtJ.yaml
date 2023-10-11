@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Lakshmi_Garrido_qtrrtJ
+  identifier: cypress_template_Lakshmi_Garrido_qtrrtJ
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Rafael_Wangui_castts
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Pawel_Aliyu_WWJddq
+              identifier: cypress_template_Pawel_Aliyu_WWJddq
+              template:
+                templateRef: cypress_template_Pawel_Aliyu_WWJddq
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
