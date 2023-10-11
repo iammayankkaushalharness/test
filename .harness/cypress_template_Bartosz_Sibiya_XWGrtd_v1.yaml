@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Bartosz_Sibiya_XWGrtd
+  identifier: cypress_template_Bartosz_Sibiya_XWGrtd
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Raju_Deng_qXGdaq
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Frank_Yu_ZJqZtH
+          identifier: cypress_stage_Frank_Yu_ZJqZtH
+          template:
+            templateRef: cypress_template_Simon_Nel_trWsct
+            versionLabel: v1
+            gitBranch: main-patch-1
