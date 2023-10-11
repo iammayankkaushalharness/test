@@ -22,3 +22,9 @@ template:
             templateRef: cypress_template_Liyor_Castillo_XIdrXG
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Sombun_Atieno_Xccaqt
+          identifier: cypress_stage_Sombun_Atieno_Xccaqt
+          template:
+            templateRef: cypress_template_Jianhua_Wu_sJJXrq
+            versionLabel: v1
