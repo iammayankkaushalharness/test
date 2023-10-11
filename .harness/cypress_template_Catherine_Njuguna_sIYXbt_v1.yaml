@@ -22,3 +22,9 @@ template:
             templateRef: cypress_template_Miyoko_Goto_qWYrtI
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Lyubov_Edwards_HGGdXc
+          identifier: cypress_stage_Lyubov_Edwards_HGGdXc
+          template:
+            templateRef: cypress_template_Helga_Xie_HGJXbX
+            versionLabel: v1
