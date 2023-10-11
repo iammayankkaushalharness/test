@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Simon_Nel_trWsct
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Prani_Rotich_aIdsIb
+          identifier: cypress_stage_Prani_Rotich_aIdsIb
+          template:
+            templateRef: cypress_template_Sombat_Sarkar_WrWZYs
+            versionLabel: v1
+            gitBranch: main-patch
