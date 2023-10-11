@@ -22,3 +22,9 @@ template:
             templateRef: cypress_template_Sombat_Sarkar_WrWZYs
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Ewa_Llewellyn_dJasXZ
+          identifier: cypress_stage_Ewa_Llewellyn_dJasXZ
+          template:
+            templateRef: cypress_template_Mariya_Prieto_rJYddc
+            versionLabel: v1
