@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Lin_Sato_aYcqqd
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Lei_Rumbelow_ZYqsGd
+          identifier: cypress_stage_Lei_Rumbelow_ZYqsGd
+          template:
+            templateRef: cypress_template_Rachel_Willems_GYtqXJ
+            versionLabel: v1
+            gitBranch: main-patch
