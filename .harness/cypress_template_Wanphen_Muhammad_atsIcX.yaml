@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Wanphen_Muhammad_atsIcX
+  identifier: cypress_template_Wanphen_Muhammad_atsIcX
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Haruna_Ota_XasdJZ
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Mary_Ngwenya_dZccXX
+              identifier: cypress_template_Mary_Ngwenya_dZccXX
+              template:
+                templateRef: cypress_template_Mary_Ngwenya_dZccXX
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
