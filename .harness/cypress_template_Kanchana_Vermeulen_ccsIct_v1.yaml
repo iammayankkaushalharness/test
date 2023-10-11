@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Kanchana_Vermeulen_ccsIct
+  identifier: cypress_template_Kanchana_Vermeulen_ccsIct
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Denis_Bunmi_bsacsW
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Jakub_Dominguez_JacrWq
+          identifier: cypress_stage_Jakub_Dominguez_JacrWq
+          template:
+            templateRef: cypress_template_Chayah_Peretz_WJJdsX
+            versionLabel: v1
+            gitBranch: main-patch-1
