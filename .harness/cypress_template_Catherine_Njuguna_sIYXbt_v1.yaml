@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_JoseAntonio_Peng_WZXXad
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Ning_Espinoza_crJGXW
+          identifier: cypress_stage_Ning_Espinoza_crJGXW
+          template:
+            templateRef: cypress_template_Miyoko_Goto_qWYrtI
+            versionLabel: v1
+            gitBranch: main-patch
