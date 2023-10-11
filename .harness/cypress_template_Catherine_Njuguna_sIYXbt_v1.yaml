@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Catherine_Njuguna_sIYXbt
+  identifier: cypress_template_Catherine_Njuguna_sIYXbt
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Walter_Feldman_qJqbId
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Fumiko_Ceng_GctZZc
+          identifier: cypress_stage_Fumiko_Ceng_GctZZc
+          template:
+            templateRef: cypress_template_JoseAntonio_Peng_WZXXad
+            versionLabel: v1
+            gitBranch: main-patch-1
