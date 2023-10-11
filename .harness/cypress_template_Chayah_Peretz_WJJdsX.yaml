@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Chayah_Peretz_WJJdsX
+  identifier: cypress_template_Chayah_Peretz_WJJdsX
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Denis_Bunmi_bsacsW
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Hiromi_Kato_IJGatc
+              identifier: cypress_template_Hiromi_Kato_IJGatc
+              template:
+                templateRef: cypress_template_Hiromi_Kato_IJGatc
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
