@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Yong_Peeters_HJGcHG
+  identifier: cypress_template_Yong_Peeters_HJGcHG
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Haruna_Ota_XasdJZ
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Anita_Rivera_ttJXXH
+          identifier: cypress_stage_Anita_Rivera_ttJXXH
+          template:
+            templateRef: cypress_template_Wanphen_Muhammad_atsIcX
+            versionLabel: v1
+            gitBranch: main-patch-1
