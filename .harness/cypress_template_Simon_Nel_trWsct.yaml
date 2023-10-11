@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Simon_Nel_trWsct
+  identifier: cypress_template_Simon_Nel_trWsct
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Raju_Deng_qXGdaq
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Karen_Saito_sGYYaG
+              identifier: cypress_template_Karen_Saito_sGYYaG
+              template:
+                templateRef: cypress_template_Karen_Saito_sGYYaG
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
