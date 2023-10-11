@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Juan_Ono_sHrXaa
+  identifier: cypress_template_Juan_Ono_sHrXaa
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Johanna_Maluleke_cYYttI
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Antonia_Pugh_XJWrZb
+              identifier: cypress_template_Antonia_Pugh_XJWrZb
+              template:
+                templateRef: cypress_template_Antonia_Pugh_XJWrZb
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
