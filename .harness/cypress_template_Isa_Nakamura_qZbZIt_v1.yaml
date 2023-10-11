@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Isa_Nakamura_qZbZIt
+  identifier: cypress_template_Isa_Nakamura_qZbZIt
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Johanna_Maluleke_cYYttI
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Yun_Novikov_HtbsIJ
+          identifier: cypress_stage_Yun_Novikov_HtbsIJ
+          template:
+            templateRef: cypress_template_Juan_Ono_sHrXaa
+            versionLabel: v1
+            gitBranch: main-patch-1
