@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Sachiko_Suissa_dbrbYY
+  identifier: cypress_template_Sachiko_Suissa_dbrbYY
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Petra_Lewis_rtsIGb
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Manuel_Jabarin_qbIZdt
+              identifier: cypress_template_Manuel_Jabarin_qbIZdt
+              template:
+                templateRef: cypress_template_Manuel_Jabarin_qbIZdt
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
