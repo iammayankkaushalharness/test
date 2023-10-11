@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Nkosinathi_Martin_YabsGc
+  identifier: cypress_template_Nkosinathi_Martin_YabsGc
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Mo_Mabaso_WHXYWW
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Fatima_Kondo_JttYZX
+              identifier: cypress_template_Fatima_Kondo_JttYZX
+              template:
+                templateRef: cypress_template_Fatima_Kondo_JttYZX
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
