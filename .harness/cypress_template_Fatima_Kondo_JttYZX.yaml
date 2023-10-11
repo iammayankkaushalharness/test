@@ -1,0 +1,20 @@
+template:
+  name: cypress_template_Fatima_Kondo_JttYZX
+  identifier: cypress_template_Fatima_Kondo_JttYZX
+  versionLabel: v12
+  type: Step
+  projectIdentifier: cypress_project_Mo_Mabaso_WHXYWW
+  orgIdentifier: default
+  tags: {}
+  spec:
+    timeout: 10m
+    type: ShellScript
+    spec:
+      shell: Bash
+      onDelegate: true
+      source:
+        type: Inline
+        spec:
+          script: echo 'hello'
+      environmentVariables: []
+      outputVariables: []
