@@ -22,3 +22,9 @@ template:
             templateRef: cypress_template_Kiran_Castro_IHqGda
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Werner_Sibiya_rrIsdX
+          identifier: cypress_stage_Werner_Sibiya_rrIsdX
+          template:
+            templateRef: cypress_template_Sipho_Ito_dWadYI
+            versionLabel: v1
