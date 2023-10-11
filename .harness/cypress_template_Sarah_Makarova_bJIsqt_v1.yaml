@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Sarah_Makarova_bJIsqt
+  identifier: cypress_template_Sarah_Makarova_bJIsqt
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Mo_Mabaso_WHXYWW
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Reiko_Adan_HcGaba
+          identifier: cypress_stage_Reiko_Adan_HcGaba
+          template:
+            templateRef: cypress_template_Nkosinathi_Martin_YabsGc
+            versionLabel: v1
+            gitBranch: main-patch-1
