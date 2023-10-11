@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Wanphen_Muhammad_atsIcX
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Ling_Achieng_crdbWd
+          identifier: cypress_stage_Ling_Achieng_crdbWd
+          template:
+            templateRef: cypress_template_Kiran_Castro_IHqGda
+            versionLabel: v1
+            gitBranch: main-patch
