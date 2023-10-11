@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Monika_Shevchenko_sttqbq
+  identifier: cypress_template_Monika_Shevchenko_sttqbq
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Petra_Lewis_rtsIGb
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Stephen_Ojo_bHaaHa
+          identifier: cypress_stage_Stephen_Ojo_bHaaHa
+          template:
+            templateRef: cypress_template_Sachiko_Suissa_dbrbYY
+            versionLabel: v1
+            gitBranch: main-patch-1
