@@ -22,3 +22,9 @@ template:
             templateRef: cypress_template_Stefan_Mahlangu_aHqqtG
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Christa_Paramar_drGrss
+          identifier: cypress_stage_Christa_Paramar_drGrss
+          template:
+            templateRef: cypress_template_Anah_Mohammed_WasJqc
+            versionLabel: v1
