@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Lihua_Okada_drYJJI
+  identifier: cypress_template_Lihua_Okada_drYJJI
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Sanjay_Cherinsuk_ZqGqcJ
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Yisrael_Jones_rtsIbc
+          identifier: cypress_stage_Yisrael_Jones_rtsIbc
+          template:
+            templateRef: cypress_template_Colin_Muhammadu_aWaZbb
+            versionLabel: v1
+            gitBranch: main-patch-1
