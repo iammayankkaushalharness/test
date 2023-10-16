@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Sveinn_Mulder_WItJtJ
+  identifier: cypress_template_Sveinn_Mulder_WItJtJ
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Hong_Jankowski_aZGaXs
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Daniyel_Petrov_rstXHW
+              identifier: cypress_template_Daniyel_Petrov_rstXHW
+              template:
+                templateRef: cypress_template_Daniyel_Petrov_rstXHW
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
