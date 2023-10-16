@@ -22,3 +22,9 @@ template:
             templateRef: cypress_template_Manju_Kowalczyk_qIrWtt
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Kristinn_Hoffmann_XdHcXq
+          identifier: cypress_stage_Kristinn_Hoffmann_XdHcXq
+          template:
+            templateRef: cypress_template_Adamu_Zalewski_cYWXts
+            versionLabel: v1
