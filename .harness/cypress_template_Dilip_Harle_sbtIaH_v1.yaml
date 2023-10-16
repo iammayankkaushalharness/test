@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Dilip_Harle_sbtIaH
+  identifier: cypress_template_Dilip_Harle_sbtIaH
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Hong_Jankowski_aZGaXs
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Simon_Mikhaylov_dHtdHs
+          identifier: cypress_stage_Simon_Mikhaylov_dHtdHs
+          template:
+            templateRef: cypress_template_Sveinn_Mulder_WItJtJ
+            versionLabel: v1
+            gitBranch: main-patch-1
