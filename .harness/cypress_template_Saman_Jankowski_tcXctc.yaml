@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Saman_Jankowski_tcXctc
+  identifier: cypress_template_Saman_Jankowski_tcXctc
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Blessing_Lin_XJsstG
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Mei_Sunday_sGZrtc
+              identifier: cypress_template_Mei_Sunday_sGZrtc
+              template:
+                templateRef: cypress_template_Mei_Sunday_sGZrtc
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
