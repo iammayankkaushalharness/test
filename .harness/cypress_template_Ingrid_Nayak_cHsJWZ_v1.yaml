@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Guy_Sato_ItZZcZ
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Anah_Sah_YtIGHt
+          identifier: cypress_stage_Anah_Sah_YtIGHt
+          template:
+            templateRef: cypress_template_Yue_Sithole_dZbZYI
+            versionLabel: v1
+            gitBranch: main-patch
