@@ -22,3 +22,10 @@ template:
             templateRef: cypress_template_Phonthip_Herbulot_IrqqIJ
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Yun_Peter_IdYGGc
+          identifier: cypress_stage_Yun_Peter_IdYGGc
+          template:
+            templateRef: cypress_template_Angela_Sakamoto_HrWtIb
+            versionLabel: v1
+            gitBranch: main
