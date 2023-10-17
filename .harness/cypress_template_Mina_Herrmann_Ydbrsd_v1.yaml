@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Mina_Herrmann_Ydbrsd
+  identifier: cypress_template_Mina_Herrmann_Ydbrsd
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Blessing_Lin_XJsstG
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Masako_Young_rYJYdI
+          identifier: cypress_stage_Masako_Young_rYJYdI
+          template:
+            templateRef: cypress_template_Saman_Jankowski_tcXctc
+            versionLabel: v1
+            gitBranch: main-patch-1
