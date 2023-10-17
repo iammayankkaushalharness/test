@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Saman_Jankowski_tcXctc
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Ursula_Pal_YcrGGJ
+          identifier: cypress_stage_Ursula_Pal_YcrGGJ
+          template:
+            templateRef: cypress_template_Phonthip_Herbulot_IrqqIJ
+            versionLabel: v1
+            gitBranch: main-patch
