@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Ingrid_Nayak_cHsJWZ
+  identifier: cypress_template_Ingrid_Nayak_cHsJWZ
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Valentina_Kongkaeo_JrGYXI
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Antonio_Cheruiyot_YZdqdr
+          identifier: cypress_stage_Antonio_Cheruiyot_YZdqdr
+          template:
+            templateRef: cypress_template_Guy_Sato_ItZZcZ
+            versionLabel: v1
+            gitBranch: main-patch-1
