@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Isa_Okon_Wcddss
+  identifier: cypress_template_Isa_Okon_Wcddss
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Lilian_Sanchez_tqbsIa
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Lalita_Novikov_YIHIaq
+              identifier: cypress_template_Lalita_Novikov_YIHIaq
+              template:
+                templateRef: cypress_template_Lalita_Novikov_YIHIaq
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
