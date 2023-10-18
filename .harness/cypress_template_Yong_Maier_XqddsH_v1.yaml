@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Yong_Maier_XqddsH
+  identifier: cypress_template_Yong_Maier_XqddsH
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Lilian_Sanchez_tqbsIa
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Nancy_Meyer_atYdqq
+          identifier: cypress_stage_Nancy_Meyer_atYdqq
+          template:
+            templateRef: cypress_template_Isa_Okon_Wcddss
+            versionLabel: v1
+            gitBranch: main-patch-1
