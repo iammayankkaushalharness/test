@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Andri_Green_XXZWbt
+  identifier: cypress_pipeline_Andri_Green_XXZWbt
+  projectIdentifier: cypress_project_Ling_Naidoo_bGtWXq
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Jean_Schmitz_HWJJaI
+          project: cypress_project_Ling_Naidoo_bGtWXq
