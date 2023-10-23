@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Tebogo_Zakharova_tsXWXc
+  identifier: cypress_template_Tebogo_Zakharova_tsXWXc
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Jin_Kwiatkowski_XHGWaG
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Esther_Ramirez_tcZGYt
+          identifier: cypress_stage_Esther_Ramirez_tcZGYt
+          template:
+            templateRef: cypress_template_Xiaohong_Chukwu_ZYqraq
+            versionLabel: v1
+            gitBranch: main-patch-1
