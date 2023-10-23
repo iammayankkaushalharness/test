@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Xiaohong_Chukwu_ZYqraq
+  identifier: cypress_template_Xiaohong_Chukwu_ZYqraq
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Jin_Kwiatkowski_XHGWaG
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Ilya_Medina_bqdJXd
+              identifier: cypress_template_Ilya_Medina_bqdJXd
+              template:
+                templateRef: cypress_template_Ilya_Medina_bqdJXd
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
