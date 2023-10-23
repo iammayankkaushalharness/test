@@ -15,3 +15,9 @@ template:
             templateRef: cypress_template_Xiaohong_Chukwu_ZYqraq
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Klaus_Alvarez_asdWsq
+          identifier: cypress_stage_Klaus_Alvarez_asdWsq
+          template:
+            templateRef: cypress_template_Rattana_Ghosh_WZbaJc
+            versionLabel: v1
