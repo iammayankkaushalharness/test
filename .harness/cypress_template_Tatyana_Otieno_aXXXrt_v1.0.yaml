@@ -1,0 +1,59 @@
+template:
+  name: cypress_template_Tatyana_Otieno_aXXXrt
+  identifier: cypress_template_Tatyana_Otieno_aXXXrt
+  versionLabel: v1.0
+  type: Stage
+  projectIdentifier: cypress_project_Amiyt_Yusuf_sZrsZs
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Deployment
+    spec:
+      deploymentType: Kubernetes
+      service:
+        serviceRef: cypress_service_Karolina_Allen_XcGYta
+      environment:
+        environmentRef: cypress_env_Adam_Yan_sJYYZX
+        environmentInputs:
+          identifier: cypress_env_Adam_Yan_sJYYZX
+          type: Production
+          variables:
+            - name: var1
+              type: String
+              value: <+input>
+            - name: var2
+              type: String
+              value: <+input>
+        deployToAll: false
+        infrastructureDefinitions:
+          - identifier: cypress_infra_Petrus_Andreeva_sJcsXa
+            inputs:
+              identifier: cypress_infra_Petrus_Andreeva_sJcsXa
+              type: KubernetesDirect
+              spec:
+                connectorRef: <+input>
+                namespace: <+input>
+      execution:
+        steps:
+          - step:
+              name: Rollout Deployment
+              identifier: rolloutDeployment
+              type: K8sRollingDeploy
+              timeout: 10m
+              spec:
+                skipDryRun: false
+                pruningEnabled: false
+        rollbackSteps:
+          - step:
+              name: Rollback Rollout Deployment
+              identifier: rollbackRolloutDeployment
+              type: K8sRollingRollback
+              timeout: 10m
+              spec:
+                pruningEnabled: false
+    failureStrategies:
+      - onFailure:
+          errors:
+            - AllErrors
+          action:
+            type: StageRollback
