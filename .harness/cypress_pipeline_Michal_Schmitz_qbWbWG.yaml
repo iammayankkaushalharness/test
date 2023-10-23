@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Michal_Schmitz_qbWbWG
+  identifier: cypress_pipeline_Michal_Schmitz_qbWbWG
+  projectIdentifier: cypress_project_Caroline_Amadi_Isrqbq
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Yahaya_Okafor_WcXJHr
+          project: cypress_project_Caroline_Amadi_Isrqbq
