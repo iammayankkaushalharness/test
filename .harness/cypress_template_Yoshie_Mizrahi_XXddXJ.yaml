@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Yoshie_Mizrahi_XXddXJ
+  identifier: cypress_template_Yoshie_Mizrahi_XXddXJ
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Yael_Adri_csXZbJ
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Wirot_Santos_WdHYIq
+              identifier: cypress_template_Wirot_Santos_WdHYIq
+              template:
+                templateRef: cypress_template_Wirot_Santos_WdHYIq
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
