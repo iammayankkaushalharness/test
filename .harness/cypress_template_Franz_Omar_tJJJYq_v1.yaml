@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Franz_Omar_tJJJYq
+  identifier: cypress_template_Franz_Omar_tJJJYq
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Nicola_Gil_WGGdrY
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Noriko_Mahagna_JXqrdt
+          identifier: cypress_stage_Noriko_Mahagna_JXqrdt
+          template:
+            templateRef: cypress_template_Kristina_Yahaya_tbZXYG
+            versionLabel: v1
+            gitBranch: main-patch-1
