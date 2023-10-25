@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Ling_Thompson_aJarJb
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Sombun_Lopez_brZZsd
+          identifier: cypress_stage_Sombun_Lopez_brZZsd
+          template:
+            templateRef: cypress_template_Kevin_Bauer_qrsJdH
+            versionLabel: v1
+            gitBranch: main-patch
