@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Ling_Thompson_aJarJb
+  identifier: cypress_template_Ling_Thompson_aJarJb
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Aisha_Suleiman_HWHYra
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Noam_Zhao_XaYGaZ
+              identifier: cypress_template_Noam_Zhao_XaYGaZ
+              template:
+                templateRef: cypress_template_Noam_Zhao_XaYGaZ
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
