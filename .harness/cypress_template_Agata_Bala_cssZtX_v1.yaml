@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Karl_Morales_btdsJc
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Rajendra_Zimmermann_tYJsds
+          identifier: cypress_stage_Rajendra_Zimmermann_tYJsds
+          template:
+            templateRef: cypress_template_Agata_Takeuchi_WtHsqq
+            versionLabel: v1
+            gitBranch: main-patch
