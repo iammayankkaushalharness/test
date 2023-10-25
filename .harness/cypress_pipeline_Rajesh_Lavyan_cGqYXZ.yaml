@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Rajesh_Lavyan_cGqYXZ
+  identifier: cypress_pipeline_Rajesh_Lavyan_cGqYXZ
+  projectIdentifier: cypress_project_Fiona_Dudek_cstIqX
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Hideo_Mustapha_HdHsXG
+          project: cypress_project_Fiona_Dudek_cstIqX
