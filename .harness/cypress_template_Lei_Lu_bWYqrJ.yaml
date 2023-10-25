@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Lei_Lu_bWYqrJ
+  identifier: cypress_template_Lei_Lu_bWYqrJ
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Kun_Achieng_IGXtZZ
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Wei_Wilson_WYJZtJ
+              identifier: cypress_template_Wei_Wilson_WYJZtJ
+              template:
+                templateRef: cypress_template_Wei_Wilson_WYJZtJ
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
