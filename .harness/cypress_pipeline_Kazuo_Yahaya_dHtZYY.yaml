@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Kazuo_Yahaya_dHtZYY
+  identifier: cypress_pipeline_Kazuo_Yahaya_dHtZYY
+  projectIdentifier: cypress_project_Tatyana_Hughes_bWIqWI
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Saman_Fang_tbbWJJ
+          project: cypress_project_Tatyana_Hughes_bWIqWI
