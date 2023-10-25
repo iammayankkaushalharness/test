@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Christian_Morozova_IIZatI
+  identifier: cypress_template_Christian_Morozova_IIZatI
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Yael_Adri_csXZbJ
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Wanphen_Volkov_WWaXsZ
+          identifier: cypress_stage_Wanphen_Volkov_WWaXsZ
+          template:
+            templateRef: cypress_template_Yoshie_Mizrahi_XXddXJ
+            versionLabel: v1
+            gitBranch: main-patch-1
