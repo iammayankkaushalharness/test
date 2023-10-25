@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Robert_Majewski_btIYcb
           project: cypress_project_Nadezhda_Mishra_ZdtXWZ
+          inputs:
+            identifier: child_cypress_pipeline_Robert_Majewski_btIYcb
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Yoshie_Nel_asdtca
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s
