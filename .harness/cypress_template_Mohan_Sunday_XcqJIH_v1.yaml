@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Mohan_Sunday_XcqJIH
+  identifier: cypress_template_Mohan_Sunday_XcqJIH
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Nikita_Mor_HqIrqa
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Phonthip_Jimenez_HrsWdY
+          identifier: cypress_stage_Phonthip_Jimenez_HrsWdY
+          template:
+            templateRef: cypress_template_Jianjun_Morozov_csGtqs
+            versionLabel: v1
+            gitBranch: main-patch-1
