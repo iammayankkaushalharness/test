@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Yahaya_Volkova_IrGsWq
           project: cypress_project_Yoshiko_Santiago_YXbcWb
+          inputs:
+            identifier: child_cypress_pipeline_Yahaya_Volkova_IrGsWq
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Laxmi_Jia_astraq
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s
