@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Jianjun_Morozov_csGtqs
+  identifier: cypress_template_Jianjun_Morozov_csGtqs
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Nikita_Mor_HqIrqa
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Amnuai_Ram_HrHtHa
+              identifier: cypress_template_Amnuai_Ram_HrHtHa
+              template:
+                templateRef: cypress_template_Amnuai_Ram_HrHtHa
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
