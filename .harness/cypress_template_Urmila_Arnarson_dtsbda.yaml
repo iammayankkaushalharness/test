@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Urmila_Arnarson_dtsbda
+  identifier: cypress_template_Urmila_Arnarson_dtsbda
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Pricha_Yang_qdWJsb
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Rachel_Karlsson_qadXdG
+              identifier: cypress_template_Rachel_Karlsson_qadXdG
+              template:
+                templateRef: cypress_template_Rachel_Karlsson_qadXdG
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
