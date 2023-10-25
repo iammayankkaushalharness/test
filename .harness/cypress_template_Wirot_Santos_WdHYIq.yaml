@@ -1,0 +1,20 @@
+template:
+  name: cypress_template_Wirot_Santos_WdHYIq
+  identifier: cypress_template_Wirot_Santos_WdHYIq
+  versionLabel: v12
+  type: Step
+  projectIdentifier: cypress_project_Yael_Adri_csXZbJ
+  orgIdentifier: default
+  tags: {}
+  spec:
+    timeout: 10m
+    type: ShellScript
+    spec:
+      shell: Bash
+      onDelegate: true
+      source:
+        type: Inline
+        spec:
+          script: echo 'hello'
+      environmentVariables: []
+      outputVariables: []
