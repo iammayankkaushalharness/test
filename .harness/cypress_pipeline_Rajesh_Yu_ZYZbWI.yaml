@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Shanti_Sekh_rGsctW
           project: cypress_project_Horst_Wolf_saZsWG
+          inputs:
+            identifier: child_cypress_pipeline_Shanti_Sekh_rGsctW
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Unnur_Cherinsuk_bZJZXJ
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s
