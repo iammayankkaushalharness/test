@@ -22,3 +22,9 @@ template:
             templateRef: cypress_template_Kevin_Bauer_qrsJdH
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Gang_Sukkasem_qWJXHG
+          identifier: cypress_stage_Gang_Sukkasem_qWJXHG
+          template:
+            templateRef: cypress_template_Suman_Feldman_GWXXrr
+            versionLabel: v1
