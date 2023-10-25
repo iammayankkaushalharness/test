@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_MariaPilar_Chand_WdWJGZ
           project: cypress_project_Yuval_Yamazaki_tHqIcH
+          inputs:
+            identifier: child_cypress_pipeline_MariaPilar_Chand_WdWJGZ
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Yisrael_Sulaiman_JtIcXW
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s
