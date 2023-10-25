@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Santosh_Adan_JaqdHs
+  identifier: cypress_pipeline_Santosh_Adan_JaqdHs
+  projectIdentifier: cypress_project_Lihua_Suarez_XXIcHJ
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Kiran_Thakur_aZYXZW
+          project: cypress_project_Lihua_Suarez_XXIcHJ
