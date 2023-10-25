@@ -15,3 +15,9 @@ template:
             templateRef: cypress_template_Urmila_Arnarson_dtsbda
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Isabel_Werner_ttYtrs
+          identifier: cypress_stage_Isabel_Werner_ttYtrs
+          template:
+            templateRef: cypress_template_Dieter_Bunma_WXrrdc
+            versionLabel: v1
