@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Jakub_Maluleke_tYdJJJ
+  identifier: cypress_template_Jakub_Maluleke_tYdJJJ
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Aisha_Suleiman_HWHYra
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Pilar_Patel_YGcYca
+          identifier: cypress_stage_Pilar_Patel_YGcYca
+          template:
+            templateRef: cypress_template_Ling_Thompson_aJarJb
+            versionLabel: v1
+            gitBranch: main-patch-1
