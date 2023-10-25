@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Meiyr_Greenberg_adrHtc
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Chao_Lal_ZZtrHI
+          identifier: cypress_stage_Chao_Lal_ZZtrHI
+          template:
+            templateRef: cypress_template_Mardkhay_Ayutthaya_sZIaHG
+            versionLabel: v1
+            gitBranch: main-patch
