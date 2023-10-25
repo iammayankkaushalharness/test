@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Olga_Zakharova_WsIcGa
+  identifier: cypress_template_Olga_Zakharova_WsIcGa
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Pricha_Yang_qdWJsb
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Esther_Rani_WssGsH
+          identifier: cypress_stage_Esther_Rani_WssGsH
+          template:
+            templateRef: cypress_template_Urmila_Arnarson_dtsbda
+            versionLabel: v1
+            gitBranch: main-patch-1
