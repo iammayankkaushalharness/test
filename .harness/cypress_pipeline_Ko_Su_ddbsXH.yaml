@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Ko_Su_ddbsXH
+  identifier: cypress_pipeline_Ko_Su_ddbsXH
+  projectIdentifier: cypress_project_Joyce_Jenkins_XJJJJJ
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Konstantin_Cui_caYsXZ
+          project: cypress_project_Joyce_Jenkins_XJJJJJ
