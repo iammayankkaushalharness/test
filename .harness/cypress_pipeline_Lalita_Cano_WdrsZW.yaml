@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Lalita_Cano_WdrsZW
+  identifier: cypress_pipeline_Lalita_Cano_WdrsZW
+  projectIdentifier: cypress_project_Ping_Pillay_cqYHWG
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Pushpa_Amadi_rYZJqG
+          project: cypress_project_Ping_Pillay_cqYHWG
