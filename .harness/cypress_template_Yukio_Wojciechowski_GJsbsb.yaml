@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Yukio_Wojciechowski_GJsbsb
+  identifier: cypress_template_Yukio_Wojciechowski_GJsbsb
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Anil_Koch_bJstcq
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Nadezhda_Jones_saIGsa
+              identifier: cypress_template_Nadezhda_Jones_saIGsa
+              template:
+                templateRef: cypress_template_Nadezhda_Jones_saIGsa
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
