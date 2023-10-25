@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_JoseLuis_Thongsuk_IabHtc
+  identifier: cypress_template_JoseLuis_Thongsuk_IabHtc
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Sam_Joseph_XdGGqI
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Katsumi_Arai_IbqXIX
+          identifier: cypress_stage_Katsumi_Arai_IbqXIX
+          template:
+            templateRef: cypress_template_Maria_Singh_crsXJq
+            versionLabel: v1
+            gitBranch: main-patch-1
