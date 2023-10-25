@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_James_Aguilar_sdbWYJ
+  identifier: cypress_pipeline_James_Aguilar_sdbWYJ
+  projectIdentifier: cypress_project_Yhudiyt_Ntuli_Xarbdb
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Yan_Pugh_WbaGtH
+          project: cypress_project_Yhudiyt_Ntuli_Xarbdb
