@@ -15,3 +15,9 @@ template:
             templateRef: cypress_template_Yoshie_Mizrahi_XXddXJ
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Laxmi_Petrov_JqXYbr
+          identifier: cypress_stage_Laxmi_Petrov_JqXYbr
+          template:
+            templateRef: cypress_template_Stephen_Lee_IbcZJY
+            versionLabel: v1
