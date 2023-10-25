@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Francisco_Saito_WcJbqG
+  identifier: cypress_template_Francisco_Saito_WcJbqG
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Yusuf_Kondo_qcrJbY
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Anna_Aguilar_qbcdGd
+              identifier: cypress_template_Anna_Aguilar_qbcdGd
+              template:
+                templateRef: cypress_template_Anna_Aguilar_qbcdGd
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
