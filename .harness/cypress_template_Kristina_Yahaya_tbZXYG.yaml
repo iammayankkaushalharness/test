@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Kristina_Yahaya_tbZXYG
+  identifier: cypress_template_Kristina_Yahaya_tbZXYG
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Nicola_Gil_WGGdrY
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Emmanuel_Sithole_JrtcGW
+              identifier: cypress_template_Emmanuel_Sithole_JrtcGW
+              template:
+                templateRef: cypress_template_Emmanuel_Sithole_JrtcGW
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
