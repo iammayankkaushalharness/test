@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Gabra_Yaakv_bcqcrs
+  identifier: cypress_template_Gabra_Yaakv_bcqcrs
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Xolani_Nguyen_caWsqY
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Fumiko_Liang_WYcasI
+              identifier: cypress_template_Fumiko_Liang_WYcasI
+              template:
+                templateRef: cypress_template_Fumiko_Liang_WYcasI
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
