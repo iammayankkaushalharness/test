@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Agnieszka_Richter_YWcaqY
+  identifier: cypress_template_Agnieszka_Richter_YWcaqY
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Kirill_Cao_csIrqr
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Ibrahim_Maciejewski_attGXW
+              identifier: cypress_template_Ibrahim_Maciejewski_attGXW
+              template:
+                templateRef: cypress_template_Ibrahim_Maciejewski_attGXW
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
