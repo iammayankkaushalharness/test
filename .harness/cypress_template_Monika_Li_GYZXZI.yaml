@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Monika_Li_GYZXZI
+  identifier: cypress_template_Monika_Li_GYZXZI
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Simon_Kowalczyk_tJtGJt
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Sommai_Singh_IaWXHd
+              identifier: cypress_template_Sommai_Singh_IaWXHd
+              template:
+                templateRef: cypress_template_Sommai_Singh_IaWXHd
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
