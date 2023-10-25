@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Johan_Ivanov_ZbsGZI
           project: cypress_project_Ester_Juma_HJWGrb
+          inputs:
+            identifier: child_cypress_pipeline_Johan_Ivanov_ZbsGZI
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Miyoko_Dumont_bGbdJb
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s
