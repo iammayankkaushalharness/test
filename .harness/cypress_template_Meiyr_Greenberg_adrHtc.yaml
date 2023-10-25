@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Meiyr_Greenberg_adrHtc
+  identifier: cypress_template_Meiyr_Greenberg_adrHtc
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Sombun_Isah_qacasI
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Yu_Han_sZXdWc
+              identifier: cypress_template_Yu_Han_sZXdWc
+              template:
+                templateRef: cypress_template_Yu_Han_sZXdWc
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
