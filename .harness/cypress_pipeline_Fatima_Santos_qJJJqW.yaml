@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Uriy_Schwartz_sYtrWs
           project: cypress_project_Renate_Gupta_ZIZtZW
+          inputs:
+            identifier: child_cypress_pipeline_Uriy_Schwartz_sYtrWs
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Ryoko_Zhao_GJdaat
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s
