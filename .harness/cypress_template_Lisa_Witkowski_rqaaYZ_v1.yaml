@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Lisa_Witkowski_rqaaYZ
+  identifier: cypress_template_Lisa_Witkowski_rqaaYZ
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Kirill_Cao_csIrqr
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Juan_Bowen_dGtdYJ
+          identifier: cypress_stage_Juan_Bowen_dGtdYJ
+          template:
+            templateRef: cypress_template_Agnieszka_Richter_YWcaqY
+            versionLabel: v1
+            gitBranch: main-patch-1
