@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Yuliya_Hoekstra_bIWZaY
+  identifier: cypress_template_Yuliya_Hoekstra_bIWZaY
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Karl_Adri_YJbtbI
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Jabulani_Botha_ddrZdG
+          identifier: cypress_stage_Jabulani_Botha_ddrZdG
+          template:
+            templateRef: cypress_template_Monika_Lewis_IGHXaY
+            versionLabel: v1
+            gitBranch: main-patch-1
