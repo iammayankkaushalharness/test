@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_FranciscoJavier_Wolf_atJGJH
+  identifier: cypress_template_FranciscoJavier_Wolf_atJGJH
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Anil_Koch_bJstcq
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Masako_Pan_tdtWsr
+          identifier: cypress_stage_Masako_Pan_tdtWsr
+          template:
+            templateRef: cypress_template_Yukio_Wojciechowski_GJsbsb
+            versionLabel: v1
+            gitBranch: main-patch-1
