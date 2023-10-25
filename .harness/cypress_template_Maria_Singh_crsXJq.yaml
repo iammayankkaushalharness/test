@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Maria_Singh_crsXJq
+  identifier: cypress_template_Maria_Singh_crsXJq
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Sam_Joseph_XdGGqI
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_MiguelAngel_Barasa_qqtZrZ
+              identifier: cypress_template_MiguelAngel_Barasa_qqtZrZ
+              template:
+                templateRef: cypress_template_MiguelAngel_Barasa_qqtZrZ
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
