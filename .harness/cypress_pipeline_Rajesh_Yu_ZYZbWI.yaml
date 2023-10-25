@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Rajesh_Yu_ZYZbWI
+  identifier: cypress_pipeline_Rajesh_Yu_ZYZbWI
+  projectIdentifier: cypress_project_Horst_Wolf_saZsWG
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Shanti_Sekh_rGsctW
+          project: cypress_project_Horst_Wolf_saZsWG
