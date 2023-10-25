@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Sunday_Wangui_IXJYcq
+  identifier: cypress_pipeline_Sunday_Wangui_IXJYcq
+  projectIdentifier: cypress_project_Chan_Ono_ccabrq
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Hiromi_Visser_YaYXcG
+          project: cypress_project_Chan_Ono_ccabrq
