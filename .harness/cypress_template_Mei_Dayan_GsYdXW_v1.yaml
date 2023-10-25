@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Mei_Dayan_GsYdXW
+  identifier: cypress_template_Mei_Dayan_GsYdXW
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Sombun_Isah_qacasI
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Gang_Peters_dtrbHr
+          identifier: cypress_stage_Gang_Peters_dtrbHr
+          template:
+            templateRef: cypress_template_Meiyr_Greenberg_adrHtc
+            versionLabel: v1
+            gitBranch: main-patch-1
