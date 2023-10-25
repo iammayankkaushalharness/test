@@ -22,3 +22,9 @@ template:
             templateRef: cypress_template_Yisrael_John_barXGb
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Emmanuel_Vos_aaqtWa
+          identifier: cypress_stage_Emmanuel_Vos_aaqtWa
+          template:
+            templateRef: cypress_template_Sombat_Anyango_dHrIHa
+            versionLabel: v1
