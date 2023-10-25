@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Yael_Dube_cscsXX
+  identifier: cypress_template_Yael_Dube_cscsXX
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Hiromi_Lopez_JZacqY
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Wanphen_Cohen_aGJZdX
+          identifier: cypress_stage_Wanphen_Cohen_aGJZdX
+          template:
+            templateRef: cypress_template_Juan_Edwards_qrZZbX
+            versionLabel: v1
+            gitBranch: main-patch-1
