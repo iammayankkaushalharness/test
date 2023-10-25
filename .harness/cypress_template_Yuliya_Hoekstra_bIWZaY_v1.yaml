@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Monika_Lewis_IGHXaY
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Ravi_Zhao_WZXttI
+          identifier: cypress_stage_Ravi_Zhao_WZXttI
+          template:
+            templateRef: cypress_template_Yisrael_John_barXGb
+            versionLabel: v1
+            gitBranch: main-patch
