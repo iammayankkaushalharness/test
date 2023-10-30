@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Svetlana_Wilk_dGcWIH
+  identifier: cypress_template_Svetlana_Wilk_dGcWIH
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Ko_Isah_IbXWtH
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Reiko_Jadhav_WGrddJ
+          identifier: cypress_stage_Reiko_Jadhav_WGrddJ
+          template:
+            templateRef: cypress_template_Julie_Ray_WYbZdb
+            versionLabel: v1
+            gitBranch: main-patch-1
