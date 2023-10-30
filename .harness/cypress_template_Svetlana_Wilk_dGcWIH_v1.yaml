@@ -22,3 +22,9 @@ template:
             templateRef: cypress_template_Sunday_Mitchell_cHcXdX
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Ram_Marin_rJsZtq
+          identifier: cypress_stage_Ram_Marin_rJsZtq
+          template:
+            templateRef: cypress_template_Yu_Fiala_aarcab
+            versionLabel: v1
