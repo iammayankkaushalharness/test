@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Karolina_Parker_JJcGXZ
+  identifier: cypress_template_Karolina_Parker_JJcGXZ
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Nokuthula_Gu_aqctsI
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Suman_Schulz_HqcYWI
+              identifier: cypress_template_Suman_Schulz_HqcYWI
+              template:
+                templateRef: cypress_template_Suman_Schulz_HqcYWI
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
