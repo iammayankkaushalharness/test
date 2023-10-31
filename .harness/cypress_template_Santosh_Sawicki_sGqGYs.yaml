@@ -1,0 +1,25 @@
+template:
+  name: cypress_template_Santosh_Sawicki_sGqGYs
+  identifier: cypress_template_Santosh_Sawicki_sGqGYs
+  versionLabel: v1
+  type: Stage
+  projectIdentifier: cypress_project_Chan_Aoki_HsZara
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Custom
+    spec:
+      execution:
+        steps:
+          - step:
+              name: cypress_template_Sawat_Barasa_JWqYWd
+              identifier: cypress_template_Sawat_Barasa_JWqYWd
+              template:
+                templateRef: cypress_template_Sawat_Barasa_JWqYWd
+                versionLabel: v12
+                gitBranch: main-patch-1
+    failureStrategies:
+      - onFailure:
+          errors: []
+          action:
+            type: MarkAsSuccess
