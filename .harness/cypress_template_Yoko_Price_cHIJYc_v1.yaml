@@ -22,3 +22,9 @@ template:
             templateRef: cypress_template_Helmut_Singh_WGIIJW
             versionLabel: v1
             gitBranch: main-patch
+      - stage:
+          name: cypress_stage_Brian_Jackson_rIJraZ
+          identifier: cypress_stage_Brian_Jackson_rIJraZ
+          template:
+            templateRef: cypress_template_Leah_Ray_XHXsHX
+            versionLabel: v1
