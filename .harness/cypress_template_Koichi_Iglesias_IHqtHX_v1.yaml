@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Koichi_Iglesias_IHqtHX
+  identifier: cypress_template_Koichi_Iglesias_IHqtHX
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Nokuthula_Gu_aqctsI
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Xiaoyan_Pan_tcJYqW
+          identifier: cypress_stage_Xiaoyan_Pan_tcJYqW
+          template:
+            templateRef: cypress_template_Karolina_Parker_JJcGXZ
+            versionLabel: v1
+            gitBranch: main-patch-1
