@@ -1,0 +1,17 @@
+template:
+  name: cypress_template_Yoko_Price_cHIJYc
+  identifier: cypress_template_Yoko_Price_cHIJYc
+  versionLabel: v1
+  type: Pipeline
+  projectIdentifier: cypress_project_Chan_Aoki_HsZara
+  orgIdentifier: default
+  tags: {}
+  spec:
+    stages:
+      - stage:
+          name: cypress_stage_Somnuek_Meijer_tYYHqq
+          identifier: cypress_stage_Somnuek_Meijer_tYYHqq
+          template:
+            templateRef: cypress_template_Santosh_Sawicki_sGqGYs
+            versionLabel: v1
+            gitBranch: main-patch-1
