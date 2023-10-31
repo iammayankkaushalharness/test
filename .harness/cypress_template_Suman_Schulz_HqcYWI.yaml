@@ -1,0 +1,20 @@
+template:
+  name: cypress_template_Suman_Schulz_HqcYWI
+  identifier: cypress_template_Suman_Schulz_HqcYWI
+  versionLabel: v12
+  type: Step
+  projectIdentifier: cypress_project_Nokuthula_Gu_aqctsI
+  orgIdentifier: default
+  tags: {}
+  spec:
+    timeout: 10m
+    type: ShellScript
+    spec:
+      shell: Bash
+      onDelegate: true
+      source:
+        type: Inline
+        spec:
+          script: echo 'hello'
+      environmentVariables: []
+      outputVariables: []
