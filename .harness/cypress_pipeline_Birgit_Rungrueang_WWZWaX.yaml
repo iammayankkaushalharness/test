@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_Justyna_Martin_IHJdYr
           project: cypress_project_Margaret_Maier_baHsHr
+          inputs:
+            identifier: child_cypress_pipeline_Justyna_Martin_IHJdYr
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Dariusz_Njoroge_HZZGtJ
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s
