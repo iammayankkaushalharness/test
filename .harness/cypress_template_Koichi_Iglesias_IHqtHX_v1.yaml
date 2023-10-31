@@ -15,3 +15,10 @@ template:
             templateRef: cypress_template_Karolina_Parker_JJcGXZ
             versionLabel: v1
             gitBranch: main-patch-1
+      - stage:
+          name: cypress_stage_Carmen_Wolf_rWXZIa
+          identifier: cypress_stage_Carmen_Wolf_rWXZIa
+          template:
+            templateRef: cypress_template_Usman_Zajac_rYtJJr
+            versionLabel: v1
+            gitBranch: main-patch
