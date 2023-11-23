@@ -14,3 +14,16 @@ pipeline:
           org: default
           pipeline: child_cypress_pipeline_da082cbf65c4409aa951405de280c885
           project: cypress_project_abe17b73e52346a59e935395fb2b450d
+          inputs:
+            identifier: child_cypress_pipeline_da082cbf65c4409aa951405de280c885
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_9d2c617fe2ca4c728f0786f2bd455906
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s
