@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_ce7f794033f54bbca04058c0a4a57ac6
+  identifier: cypress_pipeline_ce7f794033f54bbca04058c0a4a57ac6
+  projectIdentifier: cypress_project_abe17b73e52346a59e935395fb2b450d
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_da082cbf65c4409aa951405de280c885
+          project: cypress_project_abe17b73e52346a59e935395fb2b450d
