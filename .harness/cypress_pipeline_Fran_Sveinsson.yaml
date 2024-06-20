@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Fran_Sveinsson
+  identifier: cypress_pipeline_Fran_Sveinsson
+  projectIdentifier: cypress_project_Alberto_Lewandowski
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Paulina_VanBeek
+        identifier: cypress_stage_Paulina_VanBeek
+        template:
+          templateRef: cypress_template_Prani_Khoury
+          versionLabel: v1
+          gitBranch: main

@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Mpho_Sichantha
+  identifier: cypress_pipeline_Mpho_Sichantha
+  projectIdentifier: cypress_project_Xiaoping_Lehmann
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Emiko_Krawczyk
+          project: cypress_project_Xiaoping_Lehmann
+          inputs:
+            identifier: child_cypress_pipeline_Emiko_Krawczyk
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Shankar_Valdez
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

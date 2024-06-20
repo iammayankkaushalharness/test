@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Grace_Samuel_GIYqas
+  identifier: cypress_pipeline_Grace_Samuel_GIYqas
+  projectIdentifier: cypress_project_Isa_Lu_btIIbc
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Alina_Mitchell_dtZsGr
+          project: cypress_project_Isa_Lu_btIIbc
+          inputs:
+            identifier: child_cypress_pipeline_Alina_Mitchell_dtZsGr
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Xiaoli_Saeli_rtYIcG
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: ""

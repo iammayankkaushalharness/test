@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Birna_Sibiya
+  identifier: cypress_pipeline_Birna_Sibiya
+  projectIdentifier: cypress_project_Vladimir_Robinson
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Usman_Kowalczyk
+          project: cypress_project_Vladimir_Robinson
+          inputs:
+            identifier: child_cypress_pipeline_Usman_Kowalczyk
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Lei_Tomaszewski
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: <+input>

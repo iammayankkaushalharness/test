@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Anong_Yosef_cdWXXt
+  identifier: cypress_pipeline_Anong_Yosef_cdWXXt
+  projectIdentifier: cypress_project_Chao_Bai_rIqGsr
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Ursula_Flores_ZGHJbb
+          project: cypress_project_Chao_Bai_rIqGsr
+          inputs:
+            identifier: child_cypress_pipeline_Ursula_Flores_ZGHJbb
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Latda_Garba_bWXWYG
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Johanna_Molina_XGZJHt
+  identifier: cypress_pipeline_Johanna_Molina_XGZJHt
+  projectIdentifier: cypress_project_Rosa_Lehmann_qGrbrG
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Mieko_Lu_ZdbaJt
+          project: cypress_project_Rosa_Lehmann_qGrbrG
+          inputs:
+            identifier: child_cypress_pipeline_Mieko_Lu_ZdbaJt
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Jesus_Ahmed_GbJIJb
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: ""

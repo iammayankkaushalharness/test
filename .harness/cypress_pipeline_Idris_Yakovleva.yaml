@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Idris_Yakovleva
+  identifier: cypress_pipeline_Idris_Yakovleva
+  projectIdentifier: cypress_project_Gisela_Khatib
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Na_Yamashita
+          project: cypress_project_Gisela_Khatib
+          inputs:
+            identifier: child_cypress_pipeline_Na_Yamashita
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Santosh_Elbaz
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15m

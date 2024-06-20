@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Andrea_Nakamura
+  identifier: cypress_pipeline_Andrea_Nakamura
+  projectIdentifier: cypress_project_Raju_Rosenberg
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Gunnar_Bala
+          project: cypress_project_Raju_Rosenberg
+          inputs:
+            identifier: child_cypress_pipeline_Gunnar_Bala
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Lindiwe_Helgason
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

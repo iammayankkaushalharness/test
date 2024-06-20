@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Hisako_Eze_saZYsW
+  identifier: cypress_pipeline_Hisako_Eze_saZYsW
+  projectIdentifier: cypress_project_Anita_Kamau_cGsWqd
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Yuko_Zajac_tarHrr
+          project: cypress_project_Anita_Kamau_cGsWqd
+          inputs:
+            identifier: child_cypress_pipeline_Yuko_Zajac_tarHrr
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Ilya_Diaz_dbIqIJ
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

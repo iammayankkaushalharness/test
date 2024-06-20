@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Yakubu_Bjarnason_dtJIZc
+  identifier: cypress_pipeline_Yakubu_Bjarnason_dtJIZc
+  projectIdentifier: cypress_project_Vinod_Pavlova_cGYqYJ
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Grzegorz_Hassan_HYHbXI
+          project: cypress_project_Vinod_Pavlova_cGYqYJ
+          inputs:
+            identifier: child_cypress_pipeline_Grzegorz_Hassan_HYHbXI
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Andrea_Nowicki_ZGaHXH
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: <+input>

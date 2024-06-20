@@ -1,0 +1,43 @@
+pipeline:
+  name: "CDCAuto_pipeSkxRbdR27t"
+  identifier: "CDCAuto_pipeSkxRbdR27t"
+  projectIdentifier: "NGPipeAutoDemoPro17wJ6te9Bo"
+  orgIdentifier: "Ng_Pipelines_K8s_Organisations"
+  tags: {}
+  stages:
+  - stage:
+      name: "stage"
+      identifier: "stage"
+      template:
+        templateRef: "stagetemp"
+        versionLabel: "V1"
+        templateInputs:
+          type: "Deployment"
+          spec:
+            serviceConfig:
+              serviceDefinition:
+                type: "Kubernetes"
+                spec:
+                  variables:
+                  - name: "var"
+                    type: "String"
+                    value: "<+input>.allowedValues(ab)"
+            infrastructure:
+              infrastructureDefinition:
+                type: "KubernetesDirect"
+                spec:
+                  connectorRef: "<+input>"
+                  namespace: "<+input>"
+            execution:
+              steps:
+              - step:
+                  identifier: "jira"
+                  type: "JiraCreate"
+                  spec:
+                    connectorRef: "<+input>"
+                    projectKey: "<+input>"
+                    issueType: "<+input>"
+          variables:
+          - name: "v1"
+            type: "String"
+            value: "<+input>.allowedValues(ab)"

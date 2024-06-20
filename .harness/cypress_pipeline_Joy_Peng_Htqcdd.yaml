@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Joy_Peng_Htqcdd
+  identifier: cypress_pipeline_Joy_Peng_Htqcdd
+  projectIdentifier: cypress_project_Noam_Rosenberg_rYrZqs
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Mukesh_Adamu_IXdXXt
+          project: cypress_project_Noam_Rosenberg_rYrZqs
+          inputs:
+            identifier: child_cypress_pipeline_Mukesh_Adamu_IXdXXt
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Bartosz_Hofmann_dYGsbI
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

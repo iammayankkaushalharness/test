@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Birgit_Rungrueang_WWZWaX
+  identifier: cypress_pipeline_Birgit_Rungrueang_WWZWaX
+  projectIdentifier: cypress_project_Margaret_Maier_baHsHr
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Justyna_Martin_IHJdYr
+          project: cypress_project_Margaret_Maier_baHsHr
+          inputs:
+            identifier: child_cypress_pipeline_Justyna_Martin_IHJdYr
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Dariusz_Njoroge_HZZGtJ
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

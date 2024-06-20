@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Maria_Alvarez_WcqYYG
+  identifier: cypress_pipeline_Maria_Alvarez_WcqYYG
+  projectIdentifier: cypress_project_Frank_Lopez_ZcIcHb
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Reiko_Parry_XcGbWW
+          project: cypress_project_Frank_Lopez_ZcIcHb
+          inputs:
+            identifier: child_cypress_pipeline_Reiko_Parry_XcGbWW
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Udom_Tang_bHbdGa
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: ""

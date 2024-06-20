@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Mina_Pretorius
+  identifier: cypress_pipeline_Mina_Pretorius
+  projectIdentifier: cypress_project_Haiyan_Tshabalala
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Sukanya_Ikeda
+        identifier: cypress_stage_Sukanya_Ikeda
+        template:
+          templateRef: cypress_template_Sipho_Chebet
+          versionLabel: v1

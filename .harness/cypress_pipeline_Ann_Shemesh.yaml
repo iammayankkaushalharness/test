@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Ann_Shemesh
+  identifier: cypress_pipeline_Ann_Shemesh
+  projectIdentifier: cypress_project_Maria_Sisuk
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Erika_Nxumalo
+          project: cypress_project_Maria_Sisuk
+          inputs:
+            identifier: child_cypress_pipeline_Erika_Nxumalo
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Fatima_Gao
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: <+input>

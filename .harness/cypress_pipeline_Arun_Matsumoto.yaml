@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Arun_Matsumoto
+  identifier: cypress_pipeline_Arun_Matsumoto
+  projectIdentifier: cypress_project_Samran_Adan
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Sibusiso_Matsumoto
+          project: cypress_project_Samran_Adan
+          inputs:
+            identifier: child_cypress_pipeline_Sibusiso_Matsumoto
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Bunmi_Salazar
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: "1"

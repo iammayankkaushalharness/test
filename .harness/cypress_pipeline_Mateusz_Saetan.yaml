@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Mateusz_Saetan
+  identifier: cypress_pipeline_Mateusz_Saetan
+  projectIdentifier: cypress_project_Lin_Wieczorek
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Sommai_Einarsson
+          project: cypress_project_Lin_Wieczorek
+          inputs:
+            identifier: child_cypress_pipeline_Sommai_Einarsson
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Rajesh_Lewandowski
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: <+input>

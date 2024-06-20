@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_d5f832d5264641c08a44c356999cc68b
+  identifier: cypress_pipeline_d5f832d5264641c08a44c356999cc68b
+  projectIdentifier: cypress_project_488c3156dad84199921061fa7ba40077
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_ed9f752a42294c8b9653e028a61d67ad
+          project: cypress_project_488c3156dad84199921061fa7ba40077
+          inputs:
+            identifier: child_cypress_pipeline_ed9f752a42294c8b9653e028a61d67ad
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_6a34304e41e3431eb14c31027bc669bc
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

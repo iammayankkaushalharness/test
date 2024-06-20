@@ -1,0 +1,37 @@
+pipeline:
+  name: cypress_pipeline_Krzysztof_Schneider
+  identifier: cypress_pipeline_Krzysztof_Schneider
+  projectIdentifier: cypress_project_Elena_Feldman
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Mo_Saidu
+          project: cypress_project_Elena_Feldman
+          inputs:
+            identifier: child_cypress_pipeline_Mo_Saidu
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Ewa_Oakley
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s
+          outputs: []
+        failureStrategies:
+          - onFailure:
+              errors:
+                - AllErrors
+              action:
+                type: Ignore
+        tags: {}

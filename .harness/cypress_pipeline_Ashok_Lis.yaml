@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Ashok_Lis
+  identifier: cypress_pipeline_Ashok_Lis
+  projectIdentifier: cypress_project_Rebecca_Scholz
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Carol_Yamada
+        identifier: cypress_stage_Carol_Yamada
+        template:
+          templateRef: cypress_template_Teruko_Cheruiyot
+          versionLabel: v1

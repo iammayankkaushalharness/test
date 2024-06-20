@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Ann_Ayutthaya_tGJYbZ
+  identifier: cypress_pipeline_Ann_Ayutthaya_tGJYbZ
+  projectIdentifier: cypress_project_Tatyana_Delgado_tGWGZa
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Joyce_DeGroot_drtqqJ
+          project: cypress_project_Tatyana_Delgado_tGWGZa
+          inputs:
+            identifier: child_cypress_pipeline_Joyce_DeGroot_drtqqJ
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Margaret_Nayak_HraWJW
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

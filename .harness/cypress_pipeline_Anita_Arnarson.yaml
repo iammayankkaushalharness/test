@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Anita_Arnarson
+  identifier: cypress_pipeline_Anita_Arnarson
+  projectIdentifier: cypress_project_Tomiko_Sani
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Xiaoyan_Jones
+          project: cypress_project_Tomiko_Sani
+          inputs:
+            identifier: child_cypress_pipeline_Xiaoyan_Jones
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Vijay_Clarke
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: <+input>

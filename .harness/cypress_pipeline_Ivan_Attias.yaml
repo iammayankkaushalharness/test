@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Ivan_Attias
+  identifier: cypress_pipeline_Ivan_Attias
+  projectIdentifier: cypress_project_Monika_White
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Ilya_Mishra
+          project: cypress_project_Monika_White
+          inputs:
+            identifier: child_cypress_pipeline_Ilya_Mishra
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Ling_Yin
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

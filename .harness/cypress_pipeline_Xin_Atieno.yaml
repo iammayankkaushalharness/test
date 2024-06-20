@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Xin_Atieno
+  identifier: cypress_pipeline_Xin_Atieno
+  projectIdentifier: cypress_project_Dariusz_Feng
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Ping_Smirnova
+        identifier: cypress_stage_Ping_Smirnova
+        template:
+          templateRef: cypress_template_Koji_David
+          versionLabel: v1

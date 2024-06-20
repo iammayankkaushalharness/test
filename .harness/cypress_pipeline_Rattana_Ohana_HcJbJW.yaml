@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Rattana_Ohana_HcJbJW
+  identifier: cypress_pipeline_Rattana_Ohana_HcJbJW
+  projectIdentifier: cypress_project_Kenneth_Wood_GZbcJG
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Victoria_Kikuchi_WqddHr
+          project: cypress_project_Kenneth_Wood_GZbcJG
+          inputs:
+            identifier: child_cypress_pipeline_Victoria_Kikuchi_WqddHr
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Dariusz_Suad_cXsYts
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

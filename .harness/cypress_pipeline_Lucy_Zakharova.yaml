@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Lucy_Zakharova
+  identifier: cypress_pipeline_Lucy_Zakharova
+  projectIdentifier: cypress_project_Graham_Thompson
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Jerzy_Peng
+        identifier: cypress_stage_Jerzy_Peng
+        template:
+          templateRef: cypress_template_Hassan_Sombun
+          versionLabel: v1

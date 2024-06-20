@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Suresh_Magomedov_GadsWW
+  identifier: cypress_pipeline_Suresh_Magomedov_GadsWW
+  projectIdentifier: cypress_project_Fernando_Mazurek_WtWqaX
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Wei_Vargas_WXJXaH
+          project: cypress_project_Fernando_Mazurek_WtWqaX
+          inputs:
+            identifier: child_cypress_pipeline_Wei_Vargas_WXJXaH
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Zhen_Cherinsuk_WrdrXq
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

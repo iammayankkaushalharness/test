@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Patrick_Peretz
+  identifier: cypress_pipeline_Patrick_Peretz
+  projectIdentifier: cypress_project_Shizuko_Gumede
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Ann_Aminu
+        identifier: cypress_stage_Ann_Aminu
+        template:
+          templateRef: cypress_template_Xiaoping_Rutkowski
+          versionLabel: v1

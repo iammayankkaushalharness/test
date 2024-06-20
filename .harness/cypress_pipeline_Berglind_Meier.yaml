@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Berglind_Meier
+  identifier: cypress_pipeline_Berglind_Meier
+  projectIdentifier: cypress_project_Sushila_Smith
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Sabine_Chand
+          project: cypress_project_Sushila_Smith
+          inputs:
+            identifier: child_cypress_pipeline_Sabine_Chand
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Ilya_Zajac
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: "1"

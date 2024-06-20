@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Bongani_DeJong
+  identifier: cypress_pipeline_Bongani_DeJong
+  projectIdentifier: cypress_project_Eunice_Kozlova
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Uwe_Maier
+        identifier: cypress_stage_Uwe_Maier
+        template:
+          templateRef: cypress_template_Darya_Ostrowski
+          versionLabel: v1

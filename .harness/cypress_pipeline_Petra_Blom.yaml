@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Petra_Blom
+  identifier: cypress_pipeline_Petra_Blom
+  projectIdentifier: Cypress_dev_1234
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Dmitriy_Isah
+        identifier: cypress_stage_Dmitriy_Isah
+        template:
+          templateRef: template_1234
+          versionLabel: v1

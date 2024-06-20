@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Amina_Wagner_bdrXqI
+  identifier: cypress_pipeline_Amina_Wagner_bdrXqI
+  projectIdentifier: cypress_project_Carmen_Marin_aaWbYJ
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Ibrahim_Ishii_bGJJIW
+          project: cypress_project_Carmen_Marin_aaWbYJ
+          inputs:
+            identifier: child_cypress_pipeline_Ibrahim_Ishii_bGJJIW
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Chen_Macharia_caZsdX
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

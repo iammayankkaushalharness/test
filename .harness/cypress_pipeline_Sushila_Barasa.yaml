@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Sushila_Barasa
+  identifier: cypress_pipeline_Sushila_Barasa
+  projectIdentifier: cypress_project_Umar_Vermeulen
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Alexey_Suleiman
+        identifier: cypress_stage_Alexey_Suleiman
+        template:
+          templateRef: cypress_template_Helen_Collins
+          versionLabel: v1
+          gitBranch: main

@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Bartosz_Richter_YqJHsJ
+  identifier: cypress_pipeline_Bartosz_Richter_YqJHsJ
+  projectIdentifier: cypress_project_Marcin_Esteban_ctWJHX
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Sawat_Garcia_sYZrGs
+        identifier: cypress_stage_Sawat_Garcia_sYZrGs
+        template:
+          templateRef: cypress_template_Somphong_Krause_XXtqrb
+          versionLabel: v1

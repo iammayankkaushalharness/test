@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Frank_Nxumalo
+  identifier: cypress_pipeline_Frank_Nxumalo
+  projectIdentifier: cypress_project_Shankar_Gao
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Yosef_Castro
+          project: cypress_project_Shankar_Gao
+          inputs:
+            identifier: child_cypress_pipeline_Yosef_Castro
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Ling_Jankowski
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: <+input>

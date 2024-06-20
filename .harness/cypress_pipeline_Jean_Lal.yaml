@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Jean_Lal
+  identifier: cypress_pipeline_Jean_Lal
+  projectIdentifier: cypress_project_Jianping_Fujii
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Yusuf_Willems
+          project: cypress_project_Jianping_Fujii
+          inputs:
+            identifier: child_cypress_pipeline_Yusuf_Willems
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Catherine_Njuguna
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15m

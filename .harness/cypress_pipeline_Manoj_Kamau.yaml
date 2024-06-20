@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Manoj_Kamau
+  identifier: cypress_pipeline_Manoj_Kamau
+  projectIdentifier: cypress_project_Sombun_Tian
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Wojciech_Molefe
+        identifier: cypress_stage_Wojciech_Molefe
+        template:
+          templateRef: cypress_template_Alexander_Romero
+          versionLabel: v1

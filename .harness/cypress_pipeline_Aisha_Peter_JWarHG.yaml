@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Aisha_Peter_JWarHG
+  identifier: cypress_pipeline_Aisha_Peter_JWarHG
+  projectIdentifier: cypress_project_Hui_Gao_bdIYrY
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Mei_Kowalski_daXbtZ
+          project: cypress_project_Hui_Gao_bdIYrY
+          inputs:
+            identifier: child_cypress_pipeline_Mei_Kowalski_daXbtZ
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Tal_Rotich_aYWqId
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

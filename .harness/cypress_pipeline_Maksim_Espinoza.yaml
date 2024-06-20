@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Maksim_Espinoza
+  identifier: cypress_pipeline_Maksim_Espinoza
+  projectIdentifier: cypress_project_Berglind_Blanco
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Yoshimi_Ward
+        identifier: cypress_stage_Yoshimi_Ward
+        template:
+          templateRef: cypress_template_Omer_Jabarin
+          versionLabel: v1
+          gitBranch: main

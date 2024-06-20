@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Anil_Hall
+  identifier: cypress_pipeline_Anil_Hall
+  projectIdentifier: cypress_project_Andrzej_Blom
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Uwe_Sitwat
+        identifier: cypress_stage_Uwe_Sitwat
+        template:
+          templateRef: cypress_template_Shay_Smirnov
+          versionLabel: v1

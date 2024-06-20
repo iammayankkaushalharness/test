@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Uwe_Ouma_rdqsHc
+  identifier: cypress_pipeline_Uwe_Ouma_rdqsHc
+  projectIdentifier: cypress_project_Dmitry_Kjartansson_brdqaH
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Rachel_Yahaya_tXYIWY
+        identifier: cypress_stage_Rachel_Yahaya_tXYIWY
+        template:
+          templateRef: cypress_template_Johanna_Wanjala_GadHqt
+          versionLabel: v1

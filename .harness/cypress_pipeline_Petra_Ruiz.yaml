@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Petra_Ruiz
+  identifier: cypress_pipeline_Petra_Ruiz
+  projectIdentifier: cypress_project_Rosa_Udo
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Sombat_Perez
+        identifier: cypress_stage_Sombat_Perez
+        template:
+          templateRef: cypress_template_Erla_Saidu
+          versionLabel: v1

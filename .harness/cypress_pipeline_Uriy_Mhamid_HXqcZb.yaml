@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Uriy_Mhamid_HXqcZb
+  identifier: cypress_pipeline_Uriy_Mhamid_HXqcZb
+  projectIdentifier: cypress_project_Fernando_Harle_IWbrcX
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Dolores_Gunnarsson_sXsrIa
+          project: cypress_project_Fernando_Harle_IWbrcX
+          inputs:
+            identifier: child_cypress_pipeline_Dolores_Gunnarsson_sXsrIa
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Simon_Sato_rcbZXI
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

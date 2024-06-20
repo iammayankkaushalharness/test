@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Sommai_Cortes
+  identifier: cypress_pipeline_Sommai_Cortes
+  projectIdentifier: cypress_project_Lei_Koster
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Chao_Khatib
+          project: cypress_project_Lei_Koster
+          inputs:
+            identifier: child_cypress_pipeline_Chao_Khatib
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Peng_Udo
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

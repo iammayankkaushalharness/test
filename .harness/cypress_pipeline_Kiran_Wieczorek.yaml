@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Kiran_Wieczorek
+  identifier: cypress_pipeline_Kiran_Wieczorek
+  projectIdentifier: Cypress_dev_1234
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Sommai_Rubio
+        identifier: cypress_stage_Sommai_Rubio
+        template:
+          templateRef: template_1234
+          versionLabel: v1

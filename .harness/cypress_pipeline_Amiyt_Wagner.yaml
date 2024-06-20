@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Amiyt_Wagner
+  identifier: cypress_pipeline_Amiyt_Wagner
+  projectIdentifier: cypress_project_Ying_Koster
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Patricia_Njoroge
+        identifier: cypress_stage_Patricia_Njoroge
+        template:
+          templateRef: cypress_template_Zandile_Keller
+          versionLabel: v1
+          gitBranch: main

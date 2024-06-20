@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Rebecca_Vazquez_ZaWWra
+  identifier: cypress_pipeline_Rebecca_Vazquez_ZaWWra
+  projectIdentifier: cypress_project_Kasia_Wairimu_bbJrqa
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Sveinn_Peter_bcWdXa
+          project: cypress_project_Kasia_Wairimu_bbJrqa
+          inputs:
+            identifier: child_cypress_pipeline_Sveinn_Peter_bcWdXa
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Isa_Abubakar_dtGqZa
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

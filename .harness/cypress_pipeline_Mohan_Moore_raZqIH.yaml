@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Mohan_Moore_raZqIH
+  identifier: cypress_pipeline_Mohan_Moore_raZqIH
+  projectIdentifier: cypress_project_Liping_Maina_qqXZrq
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_MariaJose_Meng_GIqrIr
+          project: cypress_project_Liping_Maina_qqXZrq
+          inputs:
+            identifier: child_cypress_pipeline_MariaJose_Meng_GIqrIr
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Isa_Gao_WqWtrc
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

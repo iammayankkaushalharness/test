@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Olga_Parker_JHIItG
+  identifier: cypress_pipeline_Olga_Parker_JHIItG
+  projectIdentifier: cypress_project_Johanna_Nakajima_bWWGqa
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Manoj_Dauda_rrtHId
+          project: cypress_project_Johanna_Nakajima_bWWGqa
+          inputs:
+            identifier: child_cypress_pipeline_Manoj_Dauda_rrtHId
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Nobuko_Avraham_ZWrGaX
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

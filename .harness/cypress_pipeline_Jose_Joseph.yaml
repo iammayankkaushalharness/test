@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Jose_Joseph
+  identifier: cypress_pipeline_Jose_Joseph
+  projectIdentifier: cypress_project_Darya_Andreev
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Ngozi_Martin
+        identifier: cypress_stage_Ngozi_Martin
+        template:
+          templateRef: cypress_template_Charoen_Moreno
+          versionLabel: v1

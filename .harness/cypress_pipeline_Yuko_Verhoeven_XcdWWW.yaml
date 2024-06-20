@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Yuko_Verhoeven_XcdWWW
+  identifier: cypress_pipeline_Yuko_Verhoeven_XcdWWW
+  projectIdentifier: cypress_project_Ekaterina_Schulze_XZXXYZ
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Shoji_Zakharova_rGHYXt
+        identifier: cypress_stage_Shoji_Zakharova_rGHYXt
+        template:
+          templateRef: cypress_template_MariaJose_Salazar_bYHIWa
+          versionLabel: v1

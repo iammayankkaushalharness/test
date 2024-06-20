@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Teruko_Brouwer
+  identifier: cypress_pipeline_Teruko_Brouwer
+  projectIdentifier: cypress_project_Uriy_Nowak
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Nikita_Jakubowski
+          project: cypress_project_Uriy_Nowak
+          inputs:
+            identifier: child_cypress_pipeline_Nikita_Jakubowski
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Dorota_Saetang
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15m

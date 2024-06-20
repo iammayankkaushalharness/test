@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Sarah_Hassan
+  identifier: cypress_pipeline_Sarah_Hassan
+  projectIdentifier: cypress_project_Claudia_Liao
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Chayah_Kimura
+        identifier: cypress_stage_Chayah_Kimura
+        template:
+          templateRef: cypress_template_Hui_Sato
+          versionLabel: v1
+          gitBranch: main

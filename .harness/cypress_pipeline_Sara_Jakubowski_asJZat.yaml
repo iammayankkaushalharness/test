@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Sara_Jakubowski_asJZat
+  identifier: cypress_pipeline_Sara_Jakubowski_asJZat
+  projectIdentifier: cypress_project_Watsana_VanDijk_sIHqsI
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Wirat_Bunmi_YGaJss
+        identifier: cypress_stage_Wirat_Bunmi_YGaJss
+        template:
+          templateRef: cypress_template_Noam_Volkova_YHqqsc
+          versionLabel: v1

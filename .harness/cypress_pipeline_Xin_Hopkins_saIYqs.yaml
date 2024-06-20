@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Xin_Hopkins_saIYqs
+  identifier: cypress_pipeline_Xin_Hopkins_saIYqs
+  projectIdentifier: cypress_project_Tatyana_Ray_IJWsIJ
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Marta_Blom_IdctIs
+        identifier: cypress_stage_Marta_Blom_IdctIs
+        template:
+          templateRef: cypress_template_Jan_Rungrueang_drbWbs
+          versionLabel: v1
+          gitBranch: main

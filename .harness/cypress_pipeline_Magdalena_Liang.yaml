@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Magdalena_Liang
+  identifier: cypress_pipeline_Magdalena_Liang
+  projectIdentifier: cypress_project_Sabine_Paramar
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Karl_Sokolov
+        identifier: cypress_stage_Karl_Sokolov
+        template:
+          templateRef: cypress_template_Eva_Rani
+          versionLabel: v1
+          gitBranch: main

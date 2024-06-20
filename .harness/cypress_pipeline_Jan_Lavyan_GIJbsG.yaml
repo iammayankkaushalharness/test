@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Jan_Lavyan_GIJbsG
+  identifier: cypress_pipeline_Jan_Lavyan_GIJbsG
+  projectIdentifier: cypress_project_Anastasiya_Sakai_qbsaXd
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Muhammad_Kongkaeo_IbGZJa
+          project: cypress_project_Anastasiya_Sakai_qbsaXd
+          inputs:
+            identifier: child_cypress_pipeline_Muhammad_Kongkaeo_IbGZJa
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Akira_Magomedov_tcbctG
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Paula_Pawlak
+  identifier: cypress_pipeline_Paula_Pawlak
+  projectIdentifier: cypress_project_Johanna_Hen
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Justyna_Richardson
+          project: cypress_project_Johanna_Hen
+          inputs:
+            identifier: child_cypress_pipeline_Justyna_Richardson
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Ning_Mahagna
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: <+input>

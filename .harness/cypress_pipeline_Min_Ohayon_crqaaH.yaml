@@ -1,0 +1,16 @@
+pipeline:
+  name: cypress_pipeline_Min_Ohayon_crqaaH
+  identifier: cypress_pipeline_Min_Ohayon_crqaaH
+  projectIdentifier: cypress_project_Meiyr_Blanco_YtHcqY
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Ibrahim_Attias_cGHJZa
+          project: cypress_project_Meiyr_Blanco_YtHcqY

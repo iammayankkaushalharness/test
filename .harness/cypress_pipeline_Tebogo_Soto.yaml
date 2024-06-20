@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Tebogo_Soto
+  identifier: cypress_pipeline_Tebogo_Soto
+  projectIdentifier: cypress_project_Ingrid_Liu
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Mali_Cheng
+          project: cypress_project_Ingrid_Liu
+          inputs:
+            identifier: child_cypress_pipeline_Mali_Cheng
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Johanna_Brown
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: ""

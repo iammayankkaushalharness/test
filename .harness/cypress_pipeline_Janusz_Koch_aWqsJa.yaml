@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Janusz_Koch_aWqsJa
+  identifier: cypress_pipeline_Janusz_Koch_aWqsJa
+  projectIdentifier: cypress_project_Yu_Begam_aWIIJb
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Raphael_Paramar_GYHcYI
+          project: cypress_project_Yu_Begam_aWIIJb
+          inputs:
+            identifier: child_cypress_pipeline_Raphael_Paramar_GYHcYI
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Alejandro_Grabowski_tdWJtX
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

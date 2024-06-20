@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Chan_Ito
+  identifier: cypress_pipeline_Chan_Ito
+  projectIdentifier: cypress_project_Chan_Mohamed
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Alyona_Bibi
+        identifier: cypress_stage_Alyona_Bibi
+        template:
+          templateRef: cypress_template_Moses_Sichantha
+          versionLabel: v1

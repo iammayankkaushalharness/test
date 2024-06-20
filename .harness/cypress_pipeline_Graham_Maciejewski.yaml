@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Graham_Maciejewski
+  identifier: cypress_pipeline_Graham_Maciejewski
+  projectIdentifier: cypress_project_Michael_Fan
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Mark_Kovalenko
+        identifier: cypress_stage_Mark_Kovalenko
+        template:
+          templateRef: cypress_template_Maciej_Meijer
+          versionLabel: v1

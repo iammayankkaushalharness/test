@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Sanjay_Chmielewski_XHtJYH
+  identifier: cypress_pipeline_Sanjay_Chmielewski_XHtJYH
+  projectIdentifier: cypress_project_Tamar_Vermeulen_cHYstY
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Yoshiko_Egorov_dqZGYG
+          project: cypress_project_Tamar_Vermeulen_cHYstY
+          inputs:
+            identifier: child_cypress_pipeline_Yoshiko_Egorov_dqZGYG
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Svetlana_Pavlova_dcaXXr
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

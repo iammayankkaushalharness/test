@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Fumiko_Cano_tWWqGa
+  identifier: cypress_pipeline_Fumiko_Cano_tWWqGa
+  projectIdentifier: cypress_project_Ying_Kovalenko_bqJcHY
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Kenji_Taylor_YWXcdd
+        identifier: cypress_stage_Kenji_Taylor_YWXcdd
+        template:
+          templateRef: cypress_template_Erna_Herbulot_ctdGIt
+          versionLabel: v1
+          gitBranch: main

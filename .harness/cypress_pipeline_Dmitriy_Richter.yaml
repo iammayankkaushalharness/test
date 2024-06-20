@@ -1,0 +1,13 @@
+pipeline:
+  name: cypress_pipeline_Dmitriy_Richter
+  identifier: cypress_pipeline_Dmitriy_Richter
+  projectIdentifier: cypress_project_Phonthip_Meng
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Manju_Salisu
+        identifier: cypress_stage_Manju_Salisu
+        template:
+          templateRef: cypress_template_Thawi_Pretorius
+          versionLabel: v1

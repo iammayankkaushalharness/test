@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Nokuthula_Young
+  identifier: cypress_pipeline_Nokuthula_Young
+  projectIdentifier: cypress_project_Lakshmi_Cheng
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Mohamed_Hasegawa
+          project: cypress_project_Lakshmi_Cheng
+          inputs:
+            identifier: child_cypress_pipeline_Mohamed_Hasegawa
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Johannes_Shevchenko
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15m

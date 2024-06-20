@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Yael_Koch
+  identifier: cypress_pipeline_Yael_Koch
+  projectIdentifier: cypress_project_Kai_Saetan
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_MariaJose_Bitton
+          project: cypress_project_Kai_Saetan
+          inputs:
+            identifier: child_cypress_pipeline_MariaJose_Bitton
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Joseph_Prieto
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

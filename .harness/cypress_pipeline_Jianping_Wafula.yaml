@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Jianping_Wafula
+  identifier: cypress_pipeline_Jianping_Wafula
+  projectIdentifier: cypress_project_Otieno_Hassan
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Yaakv_Muhammad
+          project: cypress_project_Otieno_Hassan
+          inputs:
+            identifier: child_cypress_pipeline_Yaakv_Muhammad
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Amina_Cook
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Mpho_Ostrowski
+  identifier: cypress_pipeline_Mpho_Ostrowski
+  projectIdentifier: cypress_project_Xiaoping_Umaru
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Jin_Santiago
+          project: cypress_project_Xiaoping_Umaru
+          inputs:
+            identifier: child_cypress_pipeline_Jin_Santiago
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Koichi_Kim
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: <+input>

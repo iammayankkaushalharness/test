@@ -1,0 +1,14 @@
+pipeline:
+  name: cypress_pipeline_Sharon_Jabarin
+  identifier: cypress_pipeline_Sharon_Jabarin
+  projectIdentifier: cypress_project_Michiko_White
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: cypress_stage_Manju_Thongkham
+        identifier: cypress_stage_Manju_Thongkham
+        template:
+          templateRef: cypress_template_Yong_Koech
+          versionLabel: v1
+          gitBranch: main

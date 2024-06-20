@@ -1,0 +1,59 @@
+template:
+  name: cypress_template_Zhen_Endo
+  identifier: cypress_template_Zhen_Endo
+  versionLabel: v1.0
+  type: Stage
+  projectIdentifier: cypress_project_Shoshanah_Inoue
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Deployment
+    spec:
+      deploymentType: Kubernetes
+      service:
+        serviceRef: cypress_service_Somnuek_Sokolov
+      environment:
+        environmentRef: cypress_env_Raju_Masarweh
+        environmentInputs:
+          identifier: cypress_env_Raju_Masarweh
+          type: Production
+          variables:
+            - name: var1
+              type: String
+              value: <+input>
+            - name: var2
+              type: String
+              value: <+input>
+        deployToAll: false
+        infrastructureDefinitions:
+          - identifier: cypress_infra_Philip_Makarov
+            inputs:
+              identifier: cypress_infra_Philip_Makarov
+              type: KubernetesDirect
+              spec:
+                connectorRef: <+input>
+                namespace: <+input>
+      execution:
+        steps:
+          - step:
+              name: Rollout Deployment
+              identifier: rolloutDeployment
+              type: K8sRollingDeploy
+              timeout: 10m
+              spec:
+                skipDryRun: false
+                pruningEnabled: false
+        rollbackSteps:
+          - step:
+              name: Rollback Rollout Deployment
+              identifier: rollbackRolloutDeployment
+              type: K8sRollingRollback
+              timeout: 10m
+              spec:
+                pruningEnabled: false
+    failureStrategies:
+      - onFailure:
+          errors:
+            - AllErrors
+          action:
+            type: StageRollback

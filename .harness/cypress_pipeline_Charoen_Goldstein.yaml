@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Charoen_Goldstein
+  identifier: cypress_pipeline_Charoen_Goldstein
+  projectIdentifier: cypress_project_Shizuko_Morris
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Johannes_Brown
+          project: cypress_project_Shizuko_Morris
+          inputs:
+            identifier: child_cypress_pipeline_Johannes_Brown
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_James_Martinez
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: <+input>

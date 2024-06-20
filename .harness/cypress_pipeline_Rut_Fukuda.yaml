@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Rut_Fukuda
+  identifier: cypress_pipeline_Rut_Fukuda
+  projectIdentifier: cypress_project_Isa_Fujii
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Kazuo_Mutuku
+          project: cypress_project_Isa_Fujii
+          inputs:
+            identifier: child_cypress_pipeline_Kazuo_Mutuku
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_MariaIsabel_Johnson
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: <+input>

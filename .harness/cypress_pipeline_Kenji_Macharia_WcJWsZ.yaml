@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Kenji_Macharia_WcJWsZ
+  identifier: cypress_pipeline_Kenji_Macharia_WcJWsZ
+  projectIdentifier: cypress_project_Ingrid_Zhao_qrHYGX
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Denis_Suarez_tWdIXH
+          project: cypress_project_Ingrid_Zhao_qrHYGX
+          inputs:
+            identifier: child_cypress_pipeline_Denis_Suarez_tWdIXH
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Franz_Malkah_ZbJdtG
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

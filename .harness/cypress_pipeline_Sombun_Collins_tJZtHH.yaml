@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Sombun_Collins_tJZtHH
+  identifier: cypress_pipeline_Sombun_Collins_tJZtHH
+  projectIdentifier: cypress_project_Dorota_Takeuchi_JJWHWd
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Anil_Kumar_JsaHqH
+          project: cypress_project_Dorota_Takeuchi_JJWHWd
+          inputs:
+            identifier: child_cypress_pipeline_Anil_Kumar_JsaHqH
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Urmila_Ray_adbZtG
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

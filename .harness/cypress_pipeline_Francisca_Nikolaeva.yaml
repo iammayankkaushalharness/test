@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Francisca_Nikolaeva
+  identifier: cypress_pipeline_Francisca_Nikolaeva
+  projectIdentifier: cypress_project_Hildur_Carter
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Somphon_Shi
+          project: cypress_project_Hildur_Carter
+          inputs:
+            identifier: child_cypress_pipeline_Somphon_Shi
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Yoshio_Kamau
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: ""

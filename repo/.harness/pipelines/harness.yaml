@@ -1,0 +1,28 @@
+pipeline:
+  name: harness
+  identifier: harness
+  projectIdentifier: NGPipeAutoDemoPro17wJ6te9Bo
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  tags: {}
+  stages:
+    - stage:
+        name: s1
+        identifier: s1
+        description: ""
+        type: Approval
+        spec:
+          execution:
+            steps:
+              - step:
+                  name: s1
+                  identifier: s1
+                  type: JiraCreate
+                  timeout: 5m
+                  spec:
+                    connectorRef: account.CDCNGAuto_Jiram5RDmecS3o
+                    projectKey: TJI
+                    issueType: Test
+                    fields:
+                      - name: Summary
+                        value: dfg
+        tags: {}

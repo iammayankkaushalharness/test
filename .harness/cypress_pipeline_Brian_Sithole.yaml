@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Brian_Sithole
+  identifier: cypress_pipeline_Brian_Sithole
+  projectIdentifier: cypress_project_Manfred_Gonzalez
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Andrey_Bekher
+          project: cypress_project_Manfred_Gonzalez
+          inputs:
+            identifier: child_cypress_pipeline_Andrey_Bekher
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Diego_Saetan
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15m

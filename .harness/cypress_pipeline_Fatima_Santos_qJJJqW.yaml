@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Fatima_Santos_qJJJqW
+  identifier: cypress_pipeline_Fatima_Santos_qJJJqW
+  projectIdentifier: cypress_project_Renate_Gupta_ZIZtZW
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Uriy_Schwartz_sYtrWs
+          project: cypress_project_Renate_Gupta_ZIZtZW
+          inputs:
+            identifier: child_cypress_pipeline_Uriy_Schwartz_sYtrWs
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Ryoko_Zhao_GJdaat
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s

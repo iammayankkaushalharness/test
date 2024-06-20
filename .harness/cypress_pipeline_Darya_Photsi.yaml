@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Darya_Photsi
+  identifier: cypress_pipeline_Darya_Photsi
+  projectIdentifier: cypress_project_Ian_Frolova
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Ragnar_Pretorius
+          project: cypress_project_Ian_Frolova
+          inputs:
+            identifier: child_cypress_pipeline_Ragnar_Pretorius
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Jan_Petrova
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: ""

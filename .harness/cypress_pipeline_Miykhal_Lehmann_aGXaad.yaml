@@ -1,0 +1,29 @@
+pipeline:
+  name: cypress_pipeline_Miykhal_Lehmann_aGXaad
+  identifier: cypress_pipeline_Miykhal_Lehmann_aGXaad
+  projectIdentifier: cypress_project_Dinesh_Okoth_WbJGtt
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: parentStage
+        identifier: parentStage
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: child_cypress_pipeline_Paul_David_ZXbYtY
+          project: cypress_project_Dinesh_Okoth_WbJGtt
+          inputs:
+            identifier: child_cypress_pipeline_Paul_David_ZXbYtY
+            stages:
+              - stage:
+                  identifier: child_cypress_stage_Javier_James_rZdZta
+                  type: Custom
+                  spec:
+                    execution:
+                      steps:
+                        - step:
+                            identifier: testStep
+                            type: ShellScript
+                            timeout: 15s
